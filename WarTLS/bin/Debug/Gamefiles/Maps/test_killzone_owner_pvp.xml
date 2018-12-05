@@ -1,0 +1,10 @@
+<mission name="test_killzone_owner_pvp" time_of_day="12" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="57d655c1-c6f4-42da-8ae9-877a5bc33a50" release_mission="0" test_mission="1" channels="pvp_newbie, pvp_skilled, pvp_pro">
+ <Basemap name="test_levels/test_killzone_owner"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgQATestmaps"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="pvp_tdm_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="35" lose_pool="15" draw_pool="25" score_pool="35"/>
+ <Objectives />
+ <Teleports />
+</mission>

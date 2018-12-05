@@ -1,0 +1,10 @@
+<mission name="test_sound_moods" time_of_day="9.00" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="83a03100-c1c1-11e4-a954-1c6f65c49b05" test_mission="1" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro">
+ <Basemap name="test_levels/Sound/test_sound_moods"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgQATestmaps"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="pvp_tdm_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="35" lose_pool="15" draw_pool="25" score_pool="35"/>
+ <Objectives/>
+ <Teleports/>
+</mission>

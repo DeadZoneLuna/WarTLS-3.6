@@ -1,0 +1,45 @@
+<shop_item name="box_skin_kn19" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="max_buy_amount" value="5"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@box_skin_kn19_shop_name"/>
+		<param name="description" value="@ui_box_skin_kn19_description"/>
+		<param name="icon" value="randombox_126"/>
+	</UI_stats>
+	<random_box>
+		<group>
+		    <item name="box_bundle_kn19_red01" weight="12"/>
+			<item name="box_bundle_kn19_warf01" weight="1"/>
+			<item name="box_bundle_kn19_blue01" weight="70"/>
+			<item name="box_bundle_kn19_blackwd01" weight="3"/>
+		    <item name="box_bundle_kn19_nord01" weight="16"/>
+			<item name="box_bundle_kn19_black01" weight="4"/>
+			<item name="box_bundle_kn19_purple01" weight="6"/>
+			<item name="kn19" expiration="1h" weight="500"/>
+		    <item name="kn19" expiration="2h" weight="400"/>
+			<item name="kn19" expiration="4h" weight="350"/>
+			<item name="kn19" expiration="5h" weight="300"/>
+			<item name="kn19" expiration="6h" weight="200"/>
+			<item name="kn19" expiration="8h" weight="150"/>
+			<item name="kn19" expiration="1d" weight="100"/>
+			<item name="kn19" expiration="2d" weight="80"/>
+			<item name="kn19" expiration="3d" weight="46"/>
+			<item name="kn19" expiration="4d" weight="35"/>
+			<item name="kn19" expiration="7d" weight="15"/>
+			<item name="kn19" expiration="10d" weight="12"/>
+		</group>
+		<group>
+			<item name="smokegrenade03_c" amount="7" weight="30"/>
+			<item name="smokegrenade03_c" amount="3" weight="350"/>
+			<item name="claymoreexplosive04_c" amount="2" weight="30"/>
+			<item name="claymoreexplosive04_c" amount="1" weight="120"/>
+			<item name="flashbang" expiration="1d" weight="400"/>
+			<item name="flashbang" expiration="3d" weight="70"/>
+		</group>
+			
+	</random_box>
+</shop_item>

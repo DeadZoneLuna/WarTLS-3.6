@@ -1,0 +1,16 @@
+<shop_item name="achievement_unlock_item_masters_hand01" type="meta_game">
+	<mmo_stats>
+		<param name="item_category" value="Misc"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="max_buy_amount" value="1"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@ru_masters_hand01"/>
+		<param name="description" value="@ru_masters_hand01_desc"/>
+		<param name="icon" value="challenge_strip_hands"/>
+	</UI_stats>
+	<metagame_stats>
+		<on_activate unlock_achievement="8411"/>
+	</metagame_stats>
+</shop_item>

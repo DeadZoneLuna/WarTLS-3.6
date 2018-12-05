@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_tdm_aul_pts" time_of_day="9.33" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="24531004-8e3f-48e3-a760-59f914c02c0d" release_mission="0" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro" rating_game_mission="1">
+ <Basemap name="pvp/tdm_aul_pts"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgAul"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="tdm_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="320" lose_pool="256" draw_pool="260" score_pool="64"/>
+ <TimeDependency min_time="180" full_time="390" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

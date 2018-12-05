@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+	<shop_item name="bundle_item_pt16_pink02" type="bundle">
+		<mmo_stats>
+			<param name="item_category" value="Bundle"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@pt16_pink02_shop_name"/>
+			<param name="description" value="@pt16_pink02_shop"/>
+			<param name="icon" value="pt16_pink02"/>
+		</UI_stats>
+		<bundle>
+			<item name="pt16_pink02_shop" regular=""/>
+			<item name="pt16_shop" expiration="1d"/>
+		</bundle>
+	</shop_item>

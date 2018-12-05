@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_ffa_motel" time_of_day="16.31" game_mode="ffa" game_mode_cfg="ffa_mode.cfg" uid="dda0b8ac-de2e-9474-84fc-5b4ec51bf7ef" release_mission="1" clan_war_mission="0" only_clan_war_mission="0" channels="pvp_skilled, pvp_pro">
+ <Basemap name="pvp/ffa_motel"/>
+ <UI>
+  <Description text="@pvp_ffa_mission_desc" icon="mapImgffa_motel"/>
+  <GameMode text="@pvp_ffa_game_mode_desc" icon="pvp_ffa_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="220" lose_pool="220" draw_pool="220" score_pool="220"/>
+ <TimeDependency min_time="30" full_time="432" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

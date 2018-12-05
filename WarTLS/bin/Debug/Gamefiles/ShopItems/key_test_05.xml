@@ -1,0 +1,13 @@
+<shop_item name="key_test_05" type="key">
+	<mmo_stats>
+		<param name="item_category" value="Misc"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="max_buy_amount" value="32000"/>
+		<param name="stackable" value="0"/>
+		<param name="testcontent" value="1"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="icon" value="bundle_ps4_HD"/>
+	</UI_stats>
+</shop_item>

@@ -1,0 +1,59 @@
+<shop_item name="random_box_rw_02" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="shop_item_status" value="new"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@random_box_02_rw_shop_name"/>
+		<param name="description" value="@ui_random_box_02_rw_description"/>
+		<param name="icon" value="randombox_01"/>
+	</UI_stats>
+	<random_box>
+		<group>
+			<item name="ar02_camo02_shop" expiration="1d" weight="20"/>
+			<item name="smg04_camo02_shop" expiration="1d" weight="20"/>
+			<item name="shg03_camo02_shop" expiration="1d" weight="20"/>
+			<item name="sr14_camo02_shop" expiration="1d" weight="20"/>
+			<item name="ar20_shop" expiration="1h" weight="10"/>
+			<item name="ar16_shop" expiration="1h" weight="10"/>
+			<item name="shg32_shop" expiration="1h" weight="10"/>
+			<item name="shg08_shop" expiration="1h" weight="10"/>
+			<item name="smg25_shop" expiration="1h" weight="10"/>
+			<item name="smg17_shop" expiration="1h" weight="10"/>
+			<item name="sr13_shop" expiration="1h" weight="10"/>
+			<item name="sr09_shop" expiration="1h" weight="10"/>
+			<item name="ar20_shop" expiration="3h" weight="5"/>
+			<item name="ar16_shop" expiration="3h" weight="5"/>
+			<item name="shg32_shop" expiration="3h" weight="5"/>
+			<item name="shg08_shop" expiration="3h" weight="5"/>
+			<item name="smg25_shop" expiration="3h" weight="5"/>
+			<item name="smg17_shop" expiration="3h" weight="5"/>
+			<item name="sr13_shop" expiration="3h" weight="5"/>
+			<item name="sr09_shop" expiration="3h" weight="5"/>
+			<item name="ar20_shop" expiration="1d" weight="1"/>
+			<item name="ar16_shop" expiration="1d" weight="1"/>
+			<item name="shg32_shop" expiration="1d" weight="1"/>
+			<item name="shg08_shop" expiration="1d" weight="1"/>
+			<item name="smg25_shop" expiration="1d" weight="1"/>
+			<item name="smg17_shop" expiration="1d" weight="1"/>
+			<item name="sr13_shop" expiration="1d" weight="1"/>
+			<item name="sr09_shop" expiration="1d" weight="1"/>
+		</group>
+		<group>
+			<item name="claymoreexplosive04_c" amount="10" weight="10"/>
+			<item name="claymoreexplosive04_c" amount="5" weight="15"/>
+			<item name="claymoreexplosive04_c" amount="3" weight="20"/>
+		</group>
+		<group>
+			<item name="crown_money_item_01" amount="200" weight="5"/>
+			<item name="crown_money_item_01" amount="175" weight="10"/>
+			<item name="crown_money_item_01" amount="150" weight="15"/>
+			<item name="crown_money_item_01" amount="125" weight="20"/>
+			<item name="crown_money_item_01" amount="100" weight="25"/>
+			<item name="crown_money_item_01" amount="75" weight="50"/>
+			<item name="crown_money_item_01" amount="50" weight="75"/>
+		</group>
+	</random_box>
+</shop_item>

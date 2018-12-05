@@ -1,0 +1,147 @@
+﻿<items hash="-2077935616" content_hash="1895837950">
+  <mission mission_key="e8c0421c-f839-4db5-8876-9449432e90ad" no_teams="1" name="@na_mission_zombietower_01" setting="survival/zombie_tower_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@na_mission_zombietower_desc_01" image="mapImgZSD2j_n" difficulty="normal" type="zombietowernormal" time_of_day="9:06">
+    <objectives factor="1">
+      <objective id="0" type="primary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="245988" silver="268007" gold="303596" />
+      <Time bronze="4191700" silver="4191989" gold="4192118" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="10" silver="32" gold="58" />
+  </mission>
+  <mission mission_key="c600b911-9c30-4cda-833b-84a7dc67b004" no_teams="1" name="@fd_mission_normal01_1" setting="favela/favela_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@mission_desc_favela_j01" image="mapImgFDj01_%difficulty%" difficulty="normal" type="normalmission" time_of_day="9:06">
+    <objectives factor="2">
+      <objective id="0" type="primary" />
+      <objective id="12" type="secondary" />
+      <objective id="17" type="secondary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="18500" silver="36500" gold="47500" />
+      <Time bronze="4193414" silver="4193764" gold="4193864" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="4" silver="9" gold="15" />
+  </mission>
+  <mission mission_key="d5258bc6-d528-478d-838a-438a257e26bc" no_teams="1" name="@ct_mission_normal04_2" setting="china/china_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@pve_me_end_path" image="mapImgCTj05_%difficulty%" difficulty="normal" type="normalmission" time_of_day="9:06">
+    <objectives factor="2">
+      <objective id="0" type="primary" />
+      <objective id="8" type="secondary" />
+      <objective id="14" type="secondary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="31500" silver="56500" gold="79505" />
+      <Time bronze="4193264" silver="4193524" gold="4193594" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="4" silver="9" gold="15" />
+  </mission>
+  <mission mission_key="534fcda8-49f9-4786-86d1-859623486b38" no_teams="1" name="@snow_mission_survival_04" setting="survival/snow_fortress_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@snow_survival_mission_desc_04" image="mapImgSurvivalSnow" difficulty="survival" type="campaignsections" time_of_day="11:30">
+    <objectives factor="4">
+      <objective id="0" type="primary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="760700" silver="1029000" gold="1261700" />
+      <Time bronze="4187704" silver="4189264" gold="4189684" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="17" silver="47" gold="86" />
+  </mission>
+  <mission mission_key="72182fa0-1077-4b27-9a47-0d37fe0b3c5f" no_teams="1" name="@snow_mission_survival_03" setting="survival/snow_fortress_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@snow_survival_mission_desc_03" image="mapImgSurvivalSnow3" difficulty="survival" type="campaignsection3" time_of_day="11:30">
+    <objectives factor="2">
+      <objective id="0" type="primary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="248000" silver="358500" gold="446200" />
+      <Time bronze="4192714" silver="4193074" gold="4193164" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="5" silver="16" gold="29" />
+  </mission>
+  <mission mission_key="d8d3bd9f-aebe-4a95-ba38-8afdd8d3924c" no_teams="1" name="@mission_chernobyl_name" setting="survival/chernobyl/chernobyl_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@mission_chernobyl_desc_01" image="mapImgChernobyl_e" difficulty="easy" type="chernobyleasy" time_of_day="21:00">
+    <objectives factor="3">
+      <objective id="0" type="primary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="91000" silver="140999" gold="171000" />
+      <Time bronze="4191004" silver="4191184" gold="4191364" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="7" silver="19" gold="34" />
+  </mission>
+  <mission mission_key="f7515393-156c-4b3e-900a-2f3deed6eef8" no_teams="1" name="@snow_mission_survival_02" setting="survival/snow_fortress_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@snow_survival_mission_desc_02" image="mapImgSurvivalSnow2" difficulty="survival" type="campaignsection2" time_of_day="11:30">
+    <objectives factor="1">
+      <objective id="0" type="primary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="258000" silver="355000" gold="450000" />
+      <Time bronze="4191514" silver="4192204" gold="4192414" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="6" silver="17" gold="32" />
+  </mission>
+  <mission mission_key="efdb9c90-ee32-4150-9c59-5c17c71d57be" no_teams="1" name="@na_mission_zombietower_01" setting="survival/zombie_tower_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@na_mission_zombietower_desc_01" image="mapImgZSD2j_h" difficulty="hard" type="zombietowerhard" time_of_day="9:06">
+    <objectives factor="1">
+      <objective id="0" type="primary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="295958" silver="353417" gold="481648" />
+      <Time bronze="4190618" silver="4191366" gold="4191737" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="18" silver="50" gold="92" />
+  </mission>
+  <mission mission_key="6a415a8b-b590-4604-909f-6d391adc1aba" no_teams="1" name="@na_mission_volcano_01" setting="survival/africa_survival_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@na_mission_volcano_desc_01" image="mapImgNAvolcano_n" difficulty="normal" type="volcanonormal" time_of_day="9:06">
+    <objectives factor="1">
+      <objective id="0" type="primary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="1230000" silver="1433000" gold="1566000" />
+      <Time bronze="4191244" silver="4191904" gold="4192294" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="10" silver="28" gold="52" />
+  </mission>
+  <mission mission_key="4842cc84-3153-480d-85ad-eeaefbcf6013" no_teams="1" name="@ct_mission_survival" setting="survival/survival_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@survival_mission_desc" image="mapImgCTsurvival" difficulty="survival" type="survivalmission" time_of_day="9:06">
+    <objectives factor="1">
+      <objective id="0" type="primary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="553000" silver="715000" gold="825000" />
+      <Time bronze="4190704" silver="4191184" gold="4191334" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="16" silver="48" gold="86" />
+  </mission>
+  <mission mission_key="22752c9e-30b6-4332-9483-c4840f86dd91" no_teams="1" name="@ct_mission_easy02_1" setting="china/china_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@mission_desc_china_j02" image="mapImgCTj02_%difficulty%" difficulty="easy" type="easymission" time_of_day="9:06">
+    <objectives factor="2">
+      <objective id="0" type="primary" />
+      <objective id="18" type="secondary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="32000" silver="76000" gold="113500" />
+      <Time bronze="4193244" silver="4193514" gold="4193594" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="2" silver="4" gold="6" />
+  </mission>
+  <mission mission_key="2226d8a1-430c-4e8d-878d-f9f6bcc3251f" no_teams="1" name="@ct_mission_hard01_1" setting="china/china_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@pve_me_end_path" image="mapImgCTj01_%difficulty%" difficulty="hard" type="hardmission" time_of_day="9:06">
+    <objectives factor="2">
+      <objective id="0" type="primary" />
+      <objective id="10" type="secondary" />
+      <objective id="17" type="secondary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="24800" silver="40500" gold="62100" />
+      <Time bronze="4192794" silver="4193359" gold="4193609" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="7" silver="19" gold="34" />
+  </mission>
+  <mission mission_key="847ca876-4458-4744-aed9-618cad2c430c" no_teams="1" name="@na_mission_hard04_1" setting="africa/africa_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@mission_desc_africa_j04" image="mapImgNAj04_hard" difficulty="hard" type="hardmission" time_of_day="9:06">
+    <objectives factor="2">
+      <objective id="0" type="primary" />
+      <objective id="10" type="secondary" />
+      <objective id="15" type="secondary" />
+    </objectives>
+    <CrownRewardsThresholds>
+      <TotalPerformance bronze="60180" silver="87560" gold="144500" />
+      <Time bronze="4192419" silver="4193068" gold="4193363" />
+    </CrownRewardsThresholds>
+    <CrownRewards bronze="7" silver="19" gold="34" />
+  </mission>
+  <mission mission_key="7f1d307d-29b9-43ed-a6ac-a37df57a44f1" no_teams="1" name="@na_mission_path01_1" setting="africa/africa_base" mode="pve" mode_name="@PvE_game_mode_desc" mode_icon="pve_icon" description="@mission_desc_africa_path" image="mapImgAfrica_training" difficulty="easy" type="trainingmission" time_of_day="9:06">
+    <objectives factor="1">
+      <objective id="0" type="primary" />
+      <objective id="13" type="secondary" />
+    </objectives>
+  </mission>
+</items>

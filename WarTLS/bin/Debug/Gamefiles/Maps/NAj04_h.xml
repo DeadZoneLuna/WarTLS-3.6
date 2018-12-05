@@ -1,0 +1,19 @@
+<mission name="NAj04_h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="847ca876-4458-4744-aed9-618cad2c430c" release_mission="1" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="hardmission">
+ <Basemap name="Africa/africa_base"/>
+ <UI>
+  <Description text="@mission_desc_africa_path" icon="mapImgNAj04_hard"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="africa/africa_junction04" mission_flow="boss" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="400" lose_pool="200" draw_pool="210" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="20100" silver="12500" bronze="7300"/>
+    <Time gold="285" silver="385" bronze="640"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="1000"/>
+ </Objectives>
+ <Teleports />
+</mission>

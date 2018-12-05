@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_ffa_widestreet" time_of_day="9:33" game_mode="ffa" game_mode_cfg="ffa_mode.cfg" uid="45e182f3-d45c-4e5d-8054-fc4bbbfc2782" release_mission="1">
+ <Basemap name="pvp/ffa_widestreet"/>
+ <UI>
+  <Description text="@pvp_ffa_game_mode_desc" icon="mapImgWidestreet"/>
+  <GameMode text="@pvp_ffa_mission_desc" icon="pvp_ffa_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="150" lose_pool="150" draw_pool="150" score_pool="150"/>
+ <TimeDependency min_time="30" full_time="432" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

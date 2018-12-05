@@ -1,0 +1,9 @@
+<mission name="@name_training_camp" time_of_day="10.00"  game_mode="pve" game_mode_cfg="tutorial_mode.cfg" uid="678d8734-1c8a-4d72-bc87-19bdb40107a8" release_mission="1" tutorial_mission="1" difficulty="easy">
+ <Basemap name="Tutorial/advanced"/>
+ <UI>
+  <Description text="@tutorial_adv_mission_desc" icon="mapImgadvanced"/>
+  <GameMode text="@tutorial_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="250" lose_pool="0" draw_pool="0" score_pool="0"/>
+ <RewardMultipliers experience="1.0" money="39" sponsor_points="0.0"/>
+</mission>

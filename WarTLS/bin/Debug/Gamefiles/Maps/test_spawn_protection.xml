@@ -1,0 +1,12 @@
+<mission name="test_spawn_protection" time_of_day="9.30" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="22a2455c-8888-4890-96a9-b7b44c5487c4" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro">
+ <Basemap name="test_levels/test_spawn_protection"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgQATestmaps"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="pvp_tdm_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="250" lose_pool="85" draw_pool="125" score_pool="250"/>
+ <TimeDependency min_time="180" full_time="390" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

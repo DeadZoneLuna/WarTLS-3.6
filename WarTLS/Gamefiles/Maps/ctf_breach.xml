@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_ctf_breach" time_of_day="12" game_mode="ctf" game_mode_cfg="ctf_mode.cfg" uid="45188feb-0017-46ec-bb57-189dbbd6be2d" release_mission="1" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro" rating_game_mission="1">
+ <Basemap name="pvp/ctf_breach"/>
+ <UI>
+  <Description text="@pvp_ctf_mission_desc" icon="mapImgctf_breach"/>
+  <GameMode text="@pvp_ctf_game_mode_desc" icon="pvp_ctf_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="375" lose_pool="300" draw_pool="320" score_pool="75"/>
+ <TimeDependency min_time="30" full_time="440" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

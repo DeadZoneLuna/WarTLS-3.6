@@ -1,0 +1,10 @@
+<Mission name="@pvp_mission_display_name_ctf_longway" release_mission="1" clan_war_mission="1" time_of_day="9:10" game_mode="ctf" game_mode_cfg="ctf_mode.cfg" uid="7684fdcf-f6aa-431e-9616-608eccd3a847" channels="pvp_skilled, pvp_pro" rating_game_mission="1">
+ <UI>
+  <Description text="@pvp_ctf_mission_desc" icon="mapImgLongway"/>
+  <GameMode text="@pvp_ctf_game_mode_desc" icon="tdm_icon"/>
+ </UI>
+ <Basemap name="pvp/ctf_longway"/>
+ <Sublevels mission_flow="default" win_pool="375" lose_pool="300" draw_pool="320" score_pool="75"/>
+ <TimeDependency min_time="30" full_time="440" />
+ <KillDependency min_kills="10" full_kills="20" />
+</Mission>

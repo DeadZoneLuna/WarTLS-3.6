@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_tdm_shuttle" time_of_day="9.8" max_players="16" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="8702f1ee-bac1-4bea-a92b-d5b76c5cd5af" release_mission="1" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro" rating_game_mission="1">
+ <Basemap name="pvp/tdm_shuttle"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgtdm_shuttle"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="tdm_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="320" lose_pool="256" draw_pool="260" score_pool="64"/>
+ <TimeDependency min_time="30" full_time="470" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

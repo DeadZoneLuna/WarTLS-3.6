@@ -1,0 +1,66 @@
+<shop_item name="random_box_rank_03" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="shop_item_status" value="new"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@random_box_rank_03_shop_name"/>
+		<param name="description" value="@ui_random_box_rank_03_description"/>
+		<param name="icon" value="randombox_01"/>
+	</UI_stats>
+	<random_box>
+		<group>
+			<item name="coin_01" amount="3" weight="3"/>
+			<item name="coin_01" amount="4" weight="3"/>
+			<item name="coin_01" amount="5" weight="3"/>
+			<item name="coin_01" amount="6" weight="2"/>
+			<item name="coin_01" amount="7" weight="1"/>
+		</group>
+		<group>
+			<item name="ar13_shop" expiration="7d" weight="1"/>
+			<item name="shg13_shop" expiration="7d" weight="1"/>
+			<item name="smg05_shop" expiration="7d" weight="1"/>
+			<item name="sr16_shop" expiration="7d" weight="1"/>
+			<item name="ar10_shop" expiration="7d" weight="1"/>
+			<item name="smg24_shop" expiration="7d" weight="1"/>
+			<item name="ar08_shop" expiration="7d" weight="1"/>
+			<item name="shg26_shop" expiration="7d" weight="1"/>
+			<item name="smg26_shop" expiration="7d" weight="1"/>
+			<item name="sr08_shop" expiration="7d" weight="2"/>
+			<item name="ar23_shop" expiration="7d" weight="1"/>
+			<item name="shg30_shop" expiration="7d" weight="2"/>
+			<item name="smg09_shop" expiration="7d" weight="1"/>
+			<item name="sr01_shop" expiration="7d" weight="1"/>
+			<item name="ar13_shop" expiration="14d" weight="1"/>
+			<item name="shg13_shop" expiration="14d" weight="1"/>
+			<item name="smg05_shop" expiration="14d" weight="1"/>
+			<item name="sr16_shop" expiration="14d" weight="1"/>
+			<item name="ar10_shop" expiration="14d" weight="1"/>
+			<item name="smg24_shop" expiration="14d" weight="1"/>
+			<item name="ar08_shop" expiration="14d" weight="1"/>
+			<item name="shg26_shop" expiration="14d" weight="1"/>
+			<item name="smg26_shop" expiration="14d" weight="1"/>
+			<item name="sr08_shop" expiration="14d" weight="2"/>
+			<item name="ar23_shop" expiration="14d" weight="1"/>
+			<item name="shg30_shop" expiration="14d" weight="2"/>
+			<item name="smg09_shop" expiration="14d" weight="1"/>
+			<item name="sr01_shop" expiration="14d" weight="1"/>
+			<item name="ar13_shop" expiration="30d" weight="1"/>
+			<item name="shg13_shop" expiration="30d" weight="1"/>
+			<item name="smg05_shop" expiration="30d" weight="1"/>
+			<item name="sr16_shop" expiration="30d" weight="1"/>
+			<item name="ar10_shop" expiration="30d" weight="1"/>
+			<item name="smg24_shop" expiration="30d" weight="1"/>
+			<item name="ar08_shop" expiration="30d" weight="1"/>
+			<item name="shg26_shop" expiration="30d" weight="1"/>
+			<item name="smg26_shop" expiration="30d" weight="1"/>
+			<item name="sr08_shop" expiration="30d" weight="2"/>
+			<item name="ar23_shop" expiration="30d" weight="1"/>
+			<item name="shg30_shop" expiration="30d" weight="2"/>
+			<item name="smg09_shop" expiration="30d" weight="1"/>
+			<item name="sr01_shop" expiration="30d" weight="1"/>
+		</group>
+	</random_box>
+</shop_item>

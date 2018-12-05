@@ -1,0 +1,24 @@
+<shop_item name="contract_03_hard" type="contract">
+	<mmo_stats>
+		<param name="item_category" value="contract"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value=""/>
+		<param name="description" value="@ui_contract_descr_3h"/>
+		<param name="icon" value="tbd_icon"/>
+	</UI_stats>
+	<contract diff="hard" amount="15" id="3" kind="kills">
+		<Filters>
+			<Filter kind="player" param="1"/>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="melee" param="0"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="1"/>
+			<Filter kind="kill_zone" param="0"/>
+			<Filter kind="explosion" param="0"/>
+		</Filters>
+		<Reward name="crown_money_item_01" amount="50"/>
+	</contract>
+</shop_item>

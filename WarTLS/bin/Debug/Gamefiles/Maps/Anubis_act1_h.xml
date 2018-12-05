@@ -1,0 +1,25 @@
+<mission name="Anubis_act1_h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="336914e1-ea6b-4912-8062-4586628993ea" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="hardmission">
+ <Basemap name="Survival/anubis_base"/>
+ <UI>
+  <Description text="@hard_mission_desc" icon="mapImgNA_Anubis_h"/>
+  <GameMode text="@PvE_game_mode_desc"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="survival/anubis_act1" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="anubis_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="630000" silver="350000" bronze="144000"/>
+    <Time gold="900" silver="1000" bronze="1200"/>
+   </CrownRewardsThresholds>
+   <RewardPools>
+    <Pool name="0" value="100"/>
+    <Pool name="1" value="200"/>
+    <Pool name="2" value="250"/>
+    <Pool name="3" value="300"/>
+   </RewardPools>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="1800"/>
+ </Objectives>
+ <Teleports />
+</mission>

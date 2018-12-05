@@ -1,0 +1,10 @@
+<mission name="test_level_lms" time_of_day="15.00" game_mode="lms" game_mode_cfg="lms_mode.cfg" uid="5f5e7822-0cdb-4edf-9620-126276147cc6" release_mission="1" autostart_only="1" clan_war_mission="0" only_clan_war_mission="0" channels="pvp_newbie,pvp_skilled, pvp_pro">
+ <Basemap name="test_levels/GameModes/LMS"/>
+ <UI>
+	<Description text="@normal_mission_desc" icon="mapImgAfgan"/>
+	<GameMode text="@PvE_game_mode_desc"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="200" lose_pool="200" draw_pool="200" score_pool="100"/>
+ <Objectives />
+ <Teleports />
+</mission>

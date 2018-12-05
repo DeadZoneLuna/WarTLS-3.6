@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item id="1" type="3" name="rds07" attached_to="0" config="dm=0;material=default" slot="21647380" equipped="29" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="2" type="3" name="mk01" attached_to="0" config="dm=0;material=default" slot="163840" equipped="8" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="3" type="3" name="claymoreexplosive" attached_to="0" config="dm=0;material=default" slot="5242880" equipped="16" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="4" type="3" name="explosivegrenade" attached_to="0" config="dm=0;material=default" slot="5411845" equipped="29" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="5" type="3" name="kn01" attached_to="0" config="dm=0;material=default" slot="4329476" equipped="29" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="6" type="3" name="pt05_shop" attached_to="0" config="dm=0;material=default" slot="3247107" equipped="29" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="7" type="3" name="ar02_shop" attached_to="0" config="dm=0;material=default" slot="1" equipped="1" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="8" type="3" name="sr02_default" attached_to="0" config="dm=0;material=default" slot="1024" equipped="4" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="9" type="3" name="smg04_shop" attached_to="0" config="dm=0;material=default" slot="1048576" equipped="16" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="10" type="3" name="shg01_default" attached_to="0" config="dm=0;material=default" slot="32768" equipped="8" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="11" type="3" name="df01" attached_to="0" config="dm=0;material=default" slot="65536" equipped="8" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="12" type="3" name="ap01" attached_to="0" config="dm=0;material=default" slot="2" equipped="1" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="13" type="3" name="ak01" attached_to="0" config="dm=0;material=default" slot="2097152" equipped="16" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="14" type="3" name="medic_helmet_08" attached_to="0" config="dm=0;material=default" slot="393216" equipped="8" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="15" type="3" name="medic_kneepads_02" attached_to="0" config="dm=0;material=default" slot="294912" equipped="8" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="16" type="3" name="sniper_helmet_08" attached_to="0" config="dm=0;material=default" slot="12288" equipped="4" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="17" type="3" name="sniper_kneepads_02" attached_to="0" config="dm=0;material=default" slot="9216" equipped="4" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="18" type="3" name="soldier_helmet_08" attached_to="0" config="dm=0;material=default" slot="12" equipped="1" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="19" type="3" name="soldier_kneepads_02" attached_to="0" config="dm=0;material=default" slot="9" equipped="1" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="20" type="3" name="engineer_helmet_08" attached_to="0" config="dm=0;material=default" slot="12582912" equipped="16" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="21" type="3" name="engineer_kneepads_02" attached_to="0" config="dm=0;material=default" slot="9437184" equipped="16" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="22" type="3" name="shared_hands_08" attached_to="0" config="dm=0;material=default" slot="7576583" equipped="29" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="23" type="3" name="shared_pants_02" attached_to="0" config="dm=0;material=default" slot="19482642" equipped="29" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="24" type="3" name="shared_jacket_02" attached_to="0" config="dm=0;material=default" slot="14070797" equipped="29" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="25" type="3" name="shared_shoes_10" attached_to="0" config="dm=0;material=default" slot="17317904" equipped="29" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+  <item id="26" type="3" name="shared_vest_13" attached_to="0" config="dm=0;material=default" slot="18400273" equipped="29" default="1" permanent="0" expired_confirmed="0" buy_time_utc="0" expiration_time_utc="0" seconds_left="0" />
+
+</items>

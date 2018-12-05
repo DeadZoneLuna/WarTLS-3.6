@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_tdm_grand_bazaar" time_of_day="12" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="3347d361-ef36-4c57-8bca-4f8051fc97e6" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro" rating_game_mission="0">
+ <Basemap name="pvp/tdm_grand_bazaar"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgtdm_grand_bazaar"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="pvp_tdm_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="320" lose_pool="256" draw_pool="260" score_pool="64"/>
+ <TimeDependency min_time="30" full_time="470" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

@@ -1,0 +1,19 @@
+<mission name="FD05(5-5b)e" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="27afab47-662a-4104-9db5-fc78c85df571" release_mission="1" difficulty="easy" mission_type="easymission">
+ <Basemap name="Favela/favela_base"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="mapImgFavela"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="favela/favela_path05" mission_flow="passage" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="45" lose_pool="20" draw_pool="25" score_pool="45"/>
+  <Sublevel id="1" name="favela/favela_path05" mission_flow="passage_backward" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="45" lose_pool="20" draw_pool="25" score_pool="45"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="2000"/>
+  <Objective type="secondary" completion_score="300" id="10"/>
+  <Objective type="secondary" completion_score="300" id="13"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="FP05_end_f" finish_sublevel_id="1" finish_teleport="FP05_start_b"/>
+ </Teleports>
+</mission>

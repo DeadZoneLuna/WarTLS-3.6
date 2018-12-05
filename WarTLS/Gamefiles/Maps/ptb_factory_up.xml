@@ -1,0 +1,12 @@
+<Mission name="@pvp_mission_display_name_ptb_factory_up" release_mission="1" time_of_day="10" game_mode="ptb" game_mode_cfg="ptb_mode.cfg" uid="5de80781-f065-4454-bc23-84a334b2d8f6" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro" rating_game_mission="1">
+  <Basemap name="pvp/ptb_factory_up"/>
+  <UI>
+   <Description text="@pvp_ptb_mission_desc" icon="mapImgptb_factory_up" />
+   <GameMode text="@pvp_ptb_game_mode_desc" icon="tdm_icon" />
+  </UI>
+ <Sublevels mission_flow="default" win_pool="400" lose_pool="320" draw_pool="340" score_pool="80"/>
+ <TimeDependency min_time="30" full_time="480" />
+  <KillDependency min_kills="10" full_kills="20" />
+ <Objectives/>
+ <Teleports/>  
+</Mission>

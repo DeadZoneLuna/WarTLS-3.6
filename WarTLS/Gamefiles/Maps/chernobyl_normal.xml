@@ -1,0 +1,70 @@
+<mission name="chernobyl_normal" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="bf0b108b-dc55-4872-a236-8c86e19c569b" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="normal" mission_type="normalmission" comics_intro="ChernobylSurvivalIntro.xml">
+ <Basemap name="Survival/chernobyl/chernobyl_base"/>
+ <UI>
+  <Description text="@mission_chernobyl_desc_01" icon="mapImgChernobyl_n"/>
+  <GameMode text="@PvE_game_mode_desc"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="survival/chernobyl/chernobyl_act1" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="chernobyl_normal.cfg" win_pool="2100" lose_pool="50" draw_pool="105" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="1566000" silver="1433000" bronze="1230000"/>
+    <Time gold="2010" silver="2400" bronze="3060"/>
+   </CrownRewardsThresholds>
+   <RewardPools>
+    <Pool name="0" value="0"/>
+    <Pool name="1" value="75"/>
+    <Pool name="2" value="95"/>
+    <Pool name="3" value="135"/>
+    <Pool name="4" value="170"/>
+    <Pool name="5" value="205"/>
+    <Pool name="6" value="215"/>
+    <Pool name="7" value="250"/>
+    <Pool name="8" value="280"/>
+    <Pool name="9" value="325"/>
+   </RewardPools>
+  </Sublevel>
+  <Sublevel id="1" name="survival/chernobyl/chernobyl_act2" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="chernobyl_normal.cfg" win_pool="2100" lose_pool="50" draw_pool="105" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="1566000" silver="1433000" bronze="1230000"/>
+    <Time gold="2010" silver="2400" bronze="3060"/>
+   </CrownRewardsThresholds>
+   <RewardPools>
+    <Pool name="0" value="0"/>
+    <Pool name="1" value="75"/>
+    <Pool name="2" value="95"/>
+    <Pool name="3" value="135"/>
+    <Pool name="4" value="170"/>
+    <Pool name="5" value="205"/>
+    <Pool name="6" value="215"/>
+    <Pool name="7" value="250"/>
+    <Pool name="8" value="280"/>
+    <Pool name="9" value="325"/>
+   </RewardPools>
+  </Sublevel>
+  <Sublevel id="2" name="survival/chernobyl/chernobyl_act3" mission_flow="arena_flow" score="0" difficulty="normal" difficulty_cfg="chernobyl_normal.cfg" win_pool="2100" lose_pool="50" draw_pool="105" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="1566000" silver="1433000" bronze="1230000"/>
+    <Time gold="2010" silver="2400" bronze="3060"/>
+   </CrownRewardsThresholds>
+   <RewardPools>
+    <Pool name="0" value="0"/>
+    <Pool name="1" value="75"/>
+    <Pool name="2" value="95"/>
+    <Pool name="3" value="135"/>
+    <Pool name="4" value="170"/>
+    <Pool name="5" value="205"/>
+    <Pool name="6" value="215"/>
+    <Pool name="7" value="250"/>
+    <Pool name="8" value="280"/>
+    <Pool name="9" value="325"/>
+   </RewardPools>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="18000"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="chernobyl_act1_end" finish_sublevel_id="1" finish_teleport="chernobyl_act2_start"/>
+  <Teleport start_sublevel_id="1" start_teleport="chernobyl_act2_end" finish_sublevel_id="2" finish_teleport="chernobyl_act3_start"/>
+ </Teleports>
+</mission>

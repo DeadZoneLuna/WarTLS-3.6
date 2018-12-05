@@ -1,0 +1,19 @@
+<mission name="Anubis_act2_e" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="bca14953-9f84-4c79-a118-a26bfccc98cc" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="easy" mission_type="easymission">
+ <Basemap name="Survival/anubis_base"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="mapImgNA_Anubis_n"/>
+  <GameMode text="@PvE_game_mode_desc"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="survival/anubis_act2" mission_flow="passage" score="0" difficulty="easy" difficulty_cfg="long_easy.cfg" win_pool="150" lose_pool="100" draw_pool="110" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="129850" silver="88325" bronze="64217"/>
+    <Time gold="469" silver="570" bronze="911"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="3000"/>
+ </Objectives>
+ <Teleports />
+</mission>

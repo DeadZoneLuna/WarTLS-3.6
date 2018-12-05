@@ -1,0 +1,16 @@
+<shop_item name="random_box_bundle_afro_02" type="bundle">
+	<mmo_stats>
+		<param name="item_category" value="Bundle"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="S"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@sr03_afro01_shop_name"/>
+		<param name="description" value="@sr03_afro01"/>
+		<param name="icon" value="sr03_afro01"/>
+	</UI_stats>
+		<bundle>
+			<item name="sr03_afro01_shop" regular=""/>
+			<item name="sr03_shop" expiration="1d"/>
+		</bundle>
+</shop_item>

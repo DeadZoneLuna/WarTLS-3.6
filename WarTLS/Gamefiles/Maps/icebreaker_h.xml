@@ -1,0 +1,73 @@
+<mission name="Icebreaker_h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="e457552e-4a24-481f-89a6-f2079f9143d7" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="hardmission">
+ <Basemap name="Survival/icebreaker/icebreaker_base"/>
+  <UI>
+  <Description text="@snow_survival_mission_desc_01" icon="mapImgIcebreaker_h"/>
+  <GameMode text="@PvE_game_mode_desc"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="survival/icebreaker/icebreaker_act1" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="ib_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="690000" silver="390000" bronze="148000"/>
+    <Time gold="1150" silver="1300" bronze="1480"/>
+   </CrownRewardsThresholds>
+   <RewardPools>
+    <Pool name="0" value="50"/>
+    <Pool name="1" value="50"/>
+    <Pool name="2" value="100"/>
+    <Pool name="3" value="200"/>
+    <Pool name="4" value="250"/>
+   </RewardPools>
+  </Sublevel>
+  <Sublevel id="1" name="survival/icebreaker/icebreaker_act2" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="ib_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="690000" silver="390000" bronze="148000"/>
+    <Time gold="1150" silver="1300" bronze="1480"/>
+   </CrownRewardsThresholds>
+   <RewardPools>
+    <Pool name="0" value="50"/>
+    <Pool name="1" value="50"/>
+    <Pool name="2" value="100"/>
+    <Pool name="3" value="200"/>
+    <Pool name="4" value="250"/>
+   </RewardPools>
+  </Sublevel>
+
+  <Sublevel id="2" name="survival/icebreaker/icebreaker_act3" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="ib_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="690000" silver="390000" bronze="148000"/>
+    <Time gold="1150" silver="1300" bronze="1480"/>
+   </CrownRewardsThresholds>
+   <RewardPools>
+    <Pool name="0" value="50"/>
+    <Pool name="1" value="50"/>
+    <Pool name="2" value="100"/>
+    <Pool name="3" value="200"/>
+    <Pool name="4" value="250"/>
+   </RewardPools>
+  </Sublevel>
+  <Sublevel id="3" name="survival/icebreaker/icebreaker_act4_boss" mission_flow="boss" score="0" difficulty="hard" difficulty_cfg="ib_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="690000" silver="390000" bronze="148000"/>
+    <Time gold="1150" silver="1300" bronze="1480"/>
+   </CrownRewardsThresholds>
+   <RewardPools>
+    <Pool name="0" value="50"/>
+    <Pool name="1" value="50"/>
+    <Pool name="2" value="100"/>
+    <Pool name="3" value="200"/>
+    <Pool name="4" value="250"/>
+   </RewardPools>
+  </Sublevel>
+   </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="3600"/>
+  <Objective type="secondary" id="12"/>
+  <Objective type="secondary" id="15"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="act1_end" finish_sublevel_id="1" finish_teleport="act2_start"/>
+  <Teleport start_sublevel_id="1" start_teleport="act2_end" finish_sublevel_id="2" finish_teleport="act3_start"/>
+  <Teleport start_sublevel_id="2" start_teleport="act3_end" finish_sublevel_id="3" finish_teleport="icebreaker_act4_boss_start"/>
+ 
+ </Teleports>
+</mission>

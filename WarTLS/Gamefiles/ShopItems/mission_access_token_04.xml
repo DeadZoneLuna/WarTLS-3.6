@@ -1,0 +1,44 @@
+<shop_item name="mission_access_token_04" type="mission_access">
+	<mmo_stats>
+		<param name="item_category" value="MissionAccessToken"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="max_buy_amount" value="32000"/>
+		<param name="stackable" value="1"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@mission_access_token_survival_shop_name"/>
+		<param name="description" value="@ui_mission_access_token_survival_item"/>
+		<param name="icon" value="survival_coin_icon_shop"/>
+	</UI_stats>
+	<access mission_type="survivalmission"/>
+	<access mission_type="campaignsection1"/>
+	<access mission_type="campaignsection2"/>
+	<access mission_type="campaignsection3"/>
+	<access mission_type="campaignsections"/>
+	<access mission_type="zombieeasy"/>
+	<access mission_type="zombienormal"/>
+	<access mission_type="zombiehard"/>
+	<access mission_type="volcanoeasy"/>
+	<access mission_type="volcanonormal"/>
+	<access mission_type="volcanohard"/>
+	<access mission_type="volcanosurvival"/>
+	<access mission_type="anubiseasy"/>
+	<access mission_type="anubisnormal"/>
+	<access mission_type="anubishard"/>
+	<access mission_type="anubiseasy2"/>
+	<access mission_type="anubisnormal2"/>
+	<access mission_type="anubishard2"/>
+	<access mission_type="zombietowereasy"/>
+	<access mission_type="zombietowernormal"/>
+	<access mission_type="zombietowerhard"/>
+	<access mission_type="icebreakereasy"/>
+	<access mission_type="icebreakernormal"/>
+	<access mission_type="icebreakerhard"/>
+	<access mission_type="chernobyleasy"/>
+	<access mission_type="chernobylnormal"/>
+	<access mission_type="chernobylhard"/>
+	<access mission_type="japaneasy"/>
+	<access mission_type="japannormal"/>
+	<access mission_type="japanhard"/>
+</shop_item>

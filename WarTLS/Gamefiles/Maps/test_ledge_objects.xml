@@ -1,0 +1,22 @@
+<mission name="test_ledge_objects" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="3f5d1f96-517d-46ea-ac54-819fd0897936" release_mission="0" difficulty="easy" test_mission="1" mission_type="easymission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@pve_me_end_path" icon="mapImgAfgan_a"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/movement/sm_helpers_enabling_system/ledge_objects_1" mission_flow="passage" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="17" lose_pool="7" draw_pool="10" score_pool="17"/>
+  <Sublevel id="1" name="test_levels/movement/sm_helpers_enabling_system/ledge_objects_2" mission_flow="passage" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="17" lose_pool="7" draw_pool="10" score_pool="17"/>
+  <Sublevel id="2" name="test_levels/movement/sm_helpers_enabling_system/ledge_objects_3" mission_flow="passage" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="17" lose_pool="7" draw_pool="10" score_pool="17"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="3000"/>
+  <Objective type="secondary" completion_score="30" id="2"/>
+  <Objective type="secondary" completion_score="30" id="3"/>
+  <Objective type="secondary" completion_score="30" id="4"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="afghan_teleport_end" finish_sublevel_id="1" finish_teleport="afghan_teleport_start"/>
+  <Teleport start_sublevel_id="1" start_teleport="afghan_teleport_end" finish_sublevel_id="2" finish_teleport="afghan_teleport_start"/>
+ </Teleports>
+</mission>

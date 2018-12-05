@@ -1,0 +1,24 @@
+<shop_item name="random_box_test_14" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="shop_item_status" value="new"/>
+		<param name="max_buy_amount" value="5"/>
+		<param name="testcontent" value="1"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@random_box_test_14_shop_name"/>
+		<param name="description" value="@ui_random_box_test_14_description"/>
+		<param name="icon" value="test_item_icon"/>
+	</UI_stats>
+	<random_box>
+		<group>
+			<item name="engineer_fbs_01" weight="100" regular="" />
+			<item name="medic_fbs_01" weight="200" regular="" />
+			<item name="sniper_fbs_01" weight="300" regular="" />
+			<item name="soldier_fbs_01" weight="400" regular="" />
+			<item name="claymoreexplosive04_c" amount="3" weight="1"/>
+		</group>
+	</random_box>
+</shop_item>

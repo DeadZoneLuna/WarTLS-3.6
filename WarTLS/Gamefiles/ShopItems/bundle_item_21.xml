@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<shop_item name="bundle_item_21" type="bundle">
+    <mmo_stats>
+        <param name="item_category" value="Bundle"/>
+        <param name="shopcontent" value="1"/>
+        <param name="classes" value="RESM"/>
+    </mmo_stats>  
+    <UI_stats>
+        <param name="name" value="@bundle_item_21"/>
+        <param name="description" value="@bundle_item_21_description"/>
+        <param name="icon" value="bundle_item_21"/>
+    </UI_stats> 
+    <bundle>
+		<item name="smg26_shop"/>
+		<item name="smg09_shop"/>
+		<item name="pt25_shop"/>
+		<item name="kn10"/>
+		<item name="flashbang" expiration="30d"/>
+		<item name="engineer_helmet_02"/>
+		<item name="shared_vest_02"/>
+		<item name="shared_hands_05"/>
+		<item name="shared_shoes_05"/>
+		<item name="booster_02" expiration="30d"/>
+		<item name="game_money_item_01" amount="60000"/>
+    </bundle>
+</shop_item>

@@ -1,0 +1,10 @@
+<mission name="@pvp_mission_display_name_lms_pripyat" time_of_day="15.00" game_mode="hnt" game_mode_cfg="hnt_mode.cfg" uid="e246660c-52cb-4a56-8d25-c0f040d03793" release_mission="1" autostart_only="0" clan_war_mission="0" only_clan_war_mission="0" channels="pvp_newbie,pvp_skilled, pvp_pro">
+ <Basemap name="pvp/lms_pripyat"/>
+ <UI>
+	<Description text="@pvp_ffa_mission_desc" icon="mapImglms_pripyat" /> 
+	<GameMode text="@pvp_ffa_game_mode_desc" icon="pvp_ffa_game_mode_icon" /> 
+ </UI>
+ <Sublevels mission_flow="default" win_pool="300" lose_pool="100" draw_pool="100" score_pool="450"/>
+ <Objectives />
+ <Teleports />
+</mission>

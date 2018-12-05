@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+	<shop_item name="bundle_item_23" type="bundle">
+		<mmo_stats>
+			<param name="item_category" value="Bundle"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@bundle_item_23"/>
+			<param name="description" value="@bundle_item_23_description"/>
+			<param name="icon" value="bundle_item_23"/>
+		</UI_stats>
+		<bundle>
+			<item name="soldier_helmet_xmas_02" expiration="7d"/>
+			<item name="medic_helmet_xmas_02" expiration="7d"/>
+			<item name="engineer_helmet_xmas_02" expiration="7d"/>
+			<item name="sniper_helmet_xmas_02" expiration="7d"/>
+			<item name="shared_vest_xmas_01" expiration="7d"/>
+			<item name="shared_shoes_xmas_01" expiration="7d"/>
+			<item name="shared_hands_xmas_01" expiration="7d"/>
+			<item name="explosivegrenade_xmas" expiration="7d"/>
+			<item name="mg01_xmas_shop" expiration="7d"/>
+			<item name="shg11_xmas_shop" expiration="7d"/>
+			<item name="smg12_xmas_shop" expiration="7d"/>
+			<item name="sr03_xmas_shop" expiration="7d"/>
+		</bundle>
+	</shop_item>

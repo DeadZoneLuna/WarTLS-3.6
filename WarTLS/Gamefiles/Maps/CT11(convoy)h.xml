@@ -1,0 +1,14 @@
+<mission name="CT11(convoy)h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="64b47390-92ff-4386-908b-834f4f3f437d" release_mission="1" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="hardmission">
+ <Basemap name="china/china_base"/>
+ <UI>
+  <Description text="@hard_mission_desc" icon="mapImgCTj03_hard"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="china/china_junction03" mission_flow="convoy" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="200" lose_pool="50" draw_pool="55" score_pool="200"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="1000"/>
+ </Objectives>
+ <Teleports/>
+</mission>

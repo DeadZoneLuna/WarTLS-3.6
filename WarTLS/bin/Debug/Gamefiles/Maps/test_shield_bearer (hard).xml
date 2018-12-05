@@ -1,0 +1,14 @@
+<mission name="test_shield_bearer (hard)" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="4564467d-0b82-43d9-9843-f15bcfd1a1b2" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="easymission">
+ <Basemap name="test_levels/test_base"/>
+ <UI>
+  <Description text="@normal_mission_desc" icon="mapImgAfgan"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/test_shield_bearer_bug" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="1050" lose_pool="450" draw_pool="625" score_pool="1050"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="0"/>
+ </Objectives>
+ <Teleports />
+</mission>

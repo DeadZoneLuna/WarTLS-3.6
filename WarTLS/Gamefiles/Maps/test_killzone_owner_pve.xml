@@ -1,0 +1,37 @@
+<mission name="test_killzone_owner_pve" time_of_day="11.5" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="2d2a6dd9-dfc2-4ed9-9594-9c1cb5292d0b" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="survivalmission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@survival_mission_desc" icon="mapImgQATestmaps"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/test_killzone_owner" mission_flow="arena_flow" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150">
+  <RewardPools>
+		<Pool name="0" value="5"/>
+		<Pool name="1" value="5"/>
+		<Pool name="2" value="10"/>
+		<Pool name="3" value="20"/>
+		<Pool name="4" value="35"/>
+		<Pool name="5" value="40"/>
+		<Pool name="6" value="45"/>
+		<Pool name="7" value="60"/>
+		<Pool name="8" value="80"/>
+		<Pool name="9" value="100"/>
+		<Pool name="10" value="120"/>
+		<Pool name="11" value="160"/>
+		<Pool name="12" value="200"/>
+		<Pool name="13" value="260"/>
+		<Pool name="14" value="270"/>
+		<Pool name="15" value="280"/>
+		<Pool name="16" value="340"/>
+		<Pool name="17" value="410"/>
+		<Pool name="18" value="490"/>
+		<Pool name="19" value="570"/>
+	</RewardPools>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="6000"/>
+ </Objectives>
+ <Teleports />
+</mission>

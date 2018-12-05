@@ -1,0 +1,14 @@
+<mission name="test_stats" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="b640482e-fc4e-4d2a-b88b-5fc8e947434f" difficulty="easy" test_mission="1" mission_type="easymission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="mapImgAfgan"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/test_stats" mission_flow="passage" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="1000" lose_pool="500" draw_pool="700" score_pool="1000"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="1000"/>
+ </Objectives>
+ <Teleports/>
+</mission>

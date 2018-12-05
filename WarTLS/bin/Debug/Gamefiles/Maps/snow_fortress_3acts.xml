@@ -1,0 +1,27 @@
+<mission name="survival_snow_3acts" time_of_day="07.75" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="b9f119cd-1c26-44fa-8093-805e6f4d9076" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="survival" mission_type="campaignsections">
+	 
+	<Basemap name="survival/snow_fortress_base"/>
+	
+	<UI>
+		<Description text="Survival in 3 Acts. Forest - Castle - Fortress " icon="mapImgSurvivalSnow"/>
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+	</UI>
+	
+	<Sublevels>
+		<Sublevel id="0" name="survival/snow_fortress_act1" mission_flow="arena_flow" score="0" difficulty="survival" difficulty_cfg="rw_survival.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+		<Sublevel id="1" name="survival/snow_fortress_act2" mission_flow="arena_flow" score="0" difficulty="survival" difficulty_cfg="rw_survival.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+		<Sublevel id="2" name="survival/snow_fortress_act3" mission_flow="arena_flow" score="0" difficulty="survival" difficulty_cfg="rw_survival.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+		<Sublevel id="3" name="survival/snow_fortress_act3_boss" mission_flow="arena_flow" score="0" difficulty="survival" difficulty_cfg="rw_survival.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+	</Sublevels>
+	 
+	<Objectives>
+		<Objective type="primary" completion_score="0" timelimit="0"/>
+	</Objectives>
+	
+	<Teleports>
+		<Teleport start_sublevel_id="0" start_teleport="TeleArea_act1_end" finish_sublevel_id="1" finish_teleport="TeleArea_act2_start"/>
+		<Teleport start_sublevel_id="1" start_teleport="TeleArea_act2_end" finish_sublevel_id="2" finish_teleport="TeleArea_act3_start"/>
+		<Teleport start_sublevel_id="2" start_teleport="TeleArea_act3_AB1_end" finish_sublevel_id="3" finish_teleport="TeleArea_act3_boss_start"/>
+	</Teleports>
+  
+</mission>

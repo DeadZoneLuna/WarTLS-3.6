@@ -1,0 +1,16 @@
+<shop_item name="random_box_bundle_afro_23" type="bundle">
+	<mmo_stats>
+		<param name="item_category" value="Bundle"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="MERS"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@pt31_afro01_shop_name"/>
+		<param name="description" value="@pt31_afro01"/>
+		<param name="icon" value="pt31_afro01"/>
+	</UI_stats>
+		<bundle>
+			<item name="pt31_afro01skin_shop" regular=""/>
+			<item name="pt31_shop" expiration="1d"/>
+		</bundle>
+</shop_item>

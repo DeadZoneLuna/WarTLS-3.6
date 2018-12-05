@@ -1,0 +1,19 @@
+<mission name="ME11(11-11b)h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="5602af0b-b11f-4edd-a61c-d6087b996e5d" release_mission="1" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="hardmission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@pve_me_end_path" icon="mapImgMEp_h"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="afghan/afghan_path11" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="300" lose_pool="200" draw_pool="210" score_pool="0"/>
+  <Sublevel id="1" name="afghan/afghan_path11" mission_flow="passage_backward" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="300" lose_pool="200" draw_pool="210" score_pool="0"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="2000"/>
+  <Objective type="secondary" id="0"/>
+  <Objective type="secondary" id="13"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="ME11_end_F" finish_sublevel_id="1" finish_teleport="ME11_start_B"/>
+ </Teleports>
+</mission>

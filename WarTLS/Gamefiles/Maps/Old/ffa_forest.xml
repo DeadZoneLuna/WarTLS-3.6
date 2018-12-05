@@ -1,0 +1,13 @@
+<mission name="@pvp_mission_display_name_ffa_forest" time_of_day="8:50" game_mode="ffa" game_mode_cfg="ffa_mode.cfg" uid="227449ef-b394-4ca8-b697-abed0fff9e38" release_mission="1">
+ <Basemap name="pvp/ffa_forest"/>
+  <TimeOfDay file="Libs/TimeOfDay/forest_dynamic.tod" start="08.50" end="08.50" speed="0" />
+ <UI>
+  <Description text="@pvp_ffa_game_mode_desc" icon="mapImgFfa_forest"/>
+  <GameMode text="@pvp_ffa_mission_desc" icon="pvp_ffa_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="150" lose_pool="150" draw_pool="150" score_pool="150"/>
+ <TimeDependency min_time="30" full_time="432" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

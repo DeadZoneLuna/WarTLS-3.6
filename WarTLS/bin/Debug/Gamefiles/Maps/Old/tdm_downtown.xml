@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_tdm_downtown" clan_war_mission="1" only_clan_war_mission="0" time_of_day="8.25" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="0726fb17-1d35-4a43-97d1-4e0563794cd8" release_mission="1">
+ <Basemap name="pvp/tdm_downtown"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgDowntown"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="tdm_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="250" lose_pool="200" draw_pool="210" score_pool="50"/>
+ <TimeDependency min_time="30" full_time="470" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

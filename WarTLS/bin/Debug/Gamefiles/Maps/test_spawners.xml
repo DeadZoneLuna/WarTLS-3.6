@@ -1,0 +1,15 @@
+<mission name="test_spawners" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="86aa049f-588f-429c-a8d3-db1d9ce1dcff" release_mission="0" difficulty="normal" test_mission="1" mission_type="normalmission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@normal_mission_desc" icon="mapImgAfgan"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/test_spawners" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="35" lose_pool="15" draw_pool="20" score_pool="35"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="10000"/>
+  <Objective type="secondary" completion_score="400" id="8"/>
+ </Objectives>
+ <Teleports />
+</mission>

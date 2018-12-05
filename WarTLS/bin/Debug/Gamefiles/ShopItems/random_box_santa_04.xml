@@ -1,0 +1,24 @@
+<shop_item name="random_box_santa_04" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="MERS"/>
+		<param name="max_buy_amount" value="5"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@random_box_santa_04_shop_name"/>
+		<param name="description" value="@ui_random_box_santa_04_description"/>
+		<param name="icon" value="randombox_santa_sniper"/>
+	</UI_stats>
+	<random_box>
+		<group>
+			<item name="sr17_xmas02_shop" weight="1"/>
+			<item name="booster_02" expiration="1d" weight="6"/>
+			<item name="coin_01" amount="6" weight="6"/>
+			<item name="shared_vest_xmas_01" expiration="3d" weight="22"/>
+			<item name="shared_shoes_xmas_01" expiration="3d" weight="22"/>
+			<item name="shared_hands_xmas_01" expiration="3d" weight="22"/>
+			<item name="sniper_helmet_xmas_02" expiration="3d" weight="22"/>
+		</group>
+	</random_box>
+</shop_item>

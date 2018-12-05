@@ -1,0 +1,19 @@
+<mission name="ME14(9-9b)e" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="d69bf5b0-0c7e-45ba-8eb6-10f1128ba456" release_mission="1" clan_war_mission="0" only_clan_war_mission="0" difficulty="easy" mission_type="easymission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@pve_me_end_path" icon="mapImgMEp_e"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="afghan/afghan_path09" mission_flow="passage" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="60" lose_pool="40" draw_pool="45" score_pool="0"/>
+  <Sublevel id="1" name="afghan/afghan_path09" mission_flow="passage_backward" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="60" lose_pool="40" draw_pool="45" score_pool="0"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="2000"/>
+  <Objective type="secondary" completion_score="300" id="0"/>
+  <Objective type="secondary" completion_score="300" id="3"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="ME09_end_F" finish_sublevel_id="1" finish_teleport="ME09_start_B"/>
+ </Teleports>
+</mission>

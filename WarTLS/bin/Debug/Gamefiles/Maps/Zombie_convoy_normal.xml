@@ -1,0 +1,19 @@
+<mission name="Zombie_convoy_normal" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="286712c6-f7e0-41ab-9d05-cd67aed93d6f" release_mission="1" clan_war_mission="0" only_clan_war_mission="0" difficulty="normal" mission_type="normalmission">
+ <Basemap name="Zombie/zombie_base"/>
+ <UI>
+  <Description text="@zombie_mission_desc" icon="mapImgZSD1j_n"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="zombie/zombie_convoy" mission_flow="convoy" score="0" difficulty="normal" difficulty_cfg="zsd_normal.cfg" win_pool="195" lose_pool="100" draw_pool="105" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="46900" silver="29700" bronze="16700"/>
+    <Time gold="530" silver="550" bronze="615"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="6000"/>
+ </Objectives>
+ <Teleports />
+</mission>

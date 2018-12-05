@@ -1,0 +1,16 @@
+<shop_item name="unlock_kiwi_badge_04" type="meta_game">
+	<mmo_stats>
+		<param name="item_category" value="Emblem"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="max_buy_amount" value="1"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@kiwi_badge_04"/>
+		<param name="description" value="@kiwi_badge_04_desc"/>
+		<param name="icon" value="challenge_badge_kiwi_04"/>
+	</UI_stats>
+	<metagame_stats>
+		<on_activate unlock_achievement="6079"/>
+	</metagame_stats>
+</shop_item>

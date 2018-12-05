@@ -1,0 +1,13 @@
+<mission name="@pvp_mission_display_name_tdm_farm" time_of_day="10" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="30afabfd-032f-4ff3-a22e-8b889349aaa5" release_mission="1" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_skilled, pvp_pro" rating_game_mission="1">
+ <Basemap name="pvp/tdm_farm"/>
+ <TimeOfDay file="Libs/TimeOfDay/tdm_farm_static.tod" start="10.00" end="10.00" speed="0.0" />
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgTdmFarm"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="mapImgTdmFarm"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="320" lose_pool="256" draw_pool="260" score_pool="64"/>
+ <TimeDependency min_time="30" full_time="470" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives/>
+ <Teleports/>
+</mission>

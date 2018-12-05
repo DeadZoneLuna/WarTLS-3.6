@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_ptb_district" time_of_day="09.80" game_mode="ptb" game_mode_cfg="ptb_mode.cfg" uid="8a0f1f90-c1b5-4235-baef-81318bb6e519" release_mission="1" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_skilled, pvp_pro" rating_game_mission="1">
+ <Basemap name="pvp/ptb_district"/>
+ <UI>
+  <Description text="@pvp_ptb_mission_desc" icon="mapImgptb_District"/>
+  <GameMode text="@pvp_ptb_game_mode_desc" icon="pvp_ptb_game_mode_icon"/>
+ </UI>
+<Sublevels mission_flow="default" win_pool="400" lose_pool="320" draw_pool="340" score_pool="80"/>
+ <TimeDependency min_time="30" full_time="480" />
+  <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

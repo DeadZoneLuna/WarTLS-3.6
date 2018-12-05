@@ -1,0 +1,14 @@
+<mission name="test_elevator" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="11c2c223-0d16-4339-8762-6b86aa76e286" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="hardmission">
+ <Basemap name="survival/survival_base"/>
+ <UI>
+  <Description text="SURVIVAL PROTOTYPE" icon="mapImgQATestmaps"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/test_elevator" mission_flow="arena_flow" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="6000"/>
+ </Objectives>
+ <Teleports />
+</mission>

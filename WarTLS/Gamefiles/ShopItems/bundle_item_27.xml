@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+	<shop_item name="bundle_item_27" type="bundle">
+		<mmo_stats>
+			<param name="item_category" value="Bundle"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@bundle_item_27"/>
+			<param name="description" value="@bundle_item_27_description"/>
+			<param name="icon" value="bundle_item_27"/>
+		</UI_stats>
+		<bundle>
+			<item name="shg36_bundle_shop" expiration="7d"/>
+			<item name="pt31_bundle_shop" expiration="7d"/>
+			<item name="kn10" expiration="7d"/>
+			<item name="flashbang" expiration="7d"/>
+			
+			<item name="medic_helmet_07" expiration="7d"/>
+			<item name="medic_vest_04" expiration="7d"/>
+			<item name="shared_hands_07" expiration="7d"/>
+			<item name="shared_shoes_09" expiration="7d"/>
+			
+			<item name="df03" expiration="7d"/>
+			<item name="mk03" expiration="7d"/>
+		</bundle>
+	</shop_item>

@@ -1,0 +1,16 @@
+<shop_item name="achievement_unlock_item_102" type="meta_game">
+	<mmo_stats>
+		<param name="item_category" value="Misc"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="max_buy_amount" value="1"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@esl03"/>
+		<param name="description" value="@esl03_desc"/>
+		<param name="icon" value="challenge_strip_esl_03"/>
+	</UI_stats>
+	<metagame_stats>
+		<on_activate unlock_achievement="20058"/>
+	</metagame_stats>
+</shop_item>

@@ -1,0 +1,14 @@
+<mission name="CT12(apache)e" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="a4d147e3-c7b2-4b6a-977e-9b282f84fe62" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="easy">
+ <Basemap name="china/china_base"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="mapImgChina"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="china/china_junction04" mission_flow="boss" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="45" lose_pool="20" draw_pool="25" score_pool="45"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="1000"/>
+ </Objectives>
+ <Teleports />
+</mission>

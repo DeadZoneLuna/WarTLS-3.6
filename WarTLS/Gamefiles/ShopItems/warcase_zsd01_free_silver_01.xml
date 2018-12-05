@@ -1,0 +1,43 @@
+<shop_item name="warcase_zsd01_free_silver_01" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="shop_item_status" value="normal"/>
+		<param name="max_buy_amount" value="1"/>
+		<param name="league" value="silver"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@warcase_zsd01_free_silver_01_shop_name"/>
+		<param name="description" value="@warcase_zsd01_free_silver_01_description"/>
+		<param name="icon" value="tbd_icon"/>
+	</UI_stats>
+	<random_box>
+		<group>
+			<item name="ar04_camo04_shop" expiration="2d" weight="10"/>
+			<item name="shg12_camo04_shop" expiration="2d" weight="10"/>
+			<item name="kn10" expiration="2d" weight="10"/>
+			<item name="pt16_shop" expiration="2d" weight="10"/>
+		</group>
+		<group>
+			<item name="shared_shoes_07" expiration="12h" weight="10"/>
+			<item name="sniper_shoes_01" expiration="12h" weight="10"/>
+			<item name="medic_shoes_02" expiration="12h" weight="10"/>
+			<item name="engineer_shoes_01" expiration="12h" weight="10"/>
+		</group>
+		<group>
+			<item name="game_money_item_01" amount="10000" weight="5"/>
+			<item name="game_money_item_01" amount="3000" weight="15"/>
+			<item name="game_money_item_01" amount="1000" weight="50"/>
+			<item name="game_money_item_01" amount="650" weight="50"/>
+			<item name="game_money_item_01" amount="200" weight="80"/>
+			<item name="game_money_item_01" amount="50" weight="300"/>
+			<item name="crown_money_item_01" amount="5" weight="5"/>
+			<item name="crown_money_item_01" amount="15" weight="3"/>
+			<item name="crown_money_item_01" amount="30" weight="1"/>
+			<item name="claymoreexplosive04_c" amount="1" weight="10"/>
+			<item name="coin_01" amount="1" weight="5"/>
+			<item name="explosivegrenade02_c" amount="1" weight="20"/>
+		</group>
+	</random_box>
+</shop_item>

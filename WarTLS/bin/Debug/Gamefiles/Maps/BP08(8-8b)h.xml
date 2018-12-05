@@ -1,0 +1,19 @@
+<mission name="BP08(8-8b)h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="604740e6-3399-46f3-b499-31c04208f10e" release_mission="1" difficulty="hard" mission_type="hardmission">
+ <Basemap name="Kosovo/kosovo_base"/>
+ <UI>
+  <Description text="@hard_mission_desc" icon="mapImgKosovo"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="kosovo/kosovo_path08" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+  <Sublevel id="1" name="kosovo/kosovo_path08" mission_flow="passage_backward" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="2000"/>
+  <Objective type="secondary" completion_score="100" id="3"/>
+  <Objective type="secondary" completion_score="100" id="4"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="kosovo_path08_end" finish_sublevel_id="1" finish_teleport="kosovo_path08_b_start"/>
+ </Teleports>
+</mission>

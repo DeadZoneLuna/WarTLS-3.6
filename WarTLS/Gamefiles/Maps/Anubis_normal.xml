@@ -1,0 +1,34 @@
+<mission name="Anubis_normal" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="d5eca525-75c9-4c66-a3b8-826c4c1a2e12" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="normal" mission_type="normalmission">
+ <Basemap name="Survival/anubis_base"/>
+ <UI>
+  <Description text="@mission_desc_africa_j02" icon="mapImgNA_Anubis_n"/>
+  <GameMode text="@PvE_game_mode_desc"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="survival/anubis_act1" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="long_normal.cfg" win_pool="125" lose_pool="80" draw_pool="85" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="49800" silver="34000" bronze="20900"/>
+    <Time gold="435" silver="460" bronze="590"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+  <Sublevel id="1" name="survival/anubis_act2" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="long_normal.cfg" win_pool="365" lose_pool="345" draw_pool="346" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="61600" silver="44200" bronze="28100"/>
+    <Time gold="450" silver="495" bronze="705"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+  <Sublevel id="2" name="survival/anubis_act3" mission_flow="arena_flow" score="0" difficulty="normal" difficulty_cfg="long_normal.cfg" win_pool="195" lose_pool="100" draw_pool="105" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="75700" silver="47700" bronze="22200"/>
+    <Time gold="485" silver="520" bronze="575"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="10000"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="anubis_act1_end" finish_sublevel_id="1" finish_teleport="anubis_act2_start"/>
+  <Teleport start_sublevel_id="1" start_teleport="anubis_act2_end" finish_sublevel_id="2" finish_teleport="anubis_act3_start"/>
+ </Teleports>
+</mission>

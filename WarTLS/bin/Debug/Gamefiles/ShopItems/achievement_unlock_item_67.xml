@@ -1,0 +1,17 @@
+<shop_item name="achievement_unlock_item_67" type="meta_game">
+	<mmo_stats>
+		<param name="item_category" value="Emblem"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="max_buy_amount" value="1"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@animal_set_01"/>
+		<param name="description" value="@animal_set_01_shop_desc"/>
+		<param name="icon" value="challenge_badge_animals_01"/>
+	</UI_stats>
+	<metagame_stats>
+		<on_activate unlock_achievement="2351"/>
+	</metagame_stats>
+</shop_item>
+

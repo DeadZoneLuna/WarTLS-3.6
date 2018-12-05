@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+	<shop_item name="bundle_item_ar22_set05" type="bundle">
+		<mmo_stats>
+			<param name="item_category" value="Bundle"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="R"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@ar22_set05_shop_name"/>
+			<param name="description" value="@ar22_set05"/>
+			<param name="icon" value="ar22_set05"/>
+		</UI_stats>
+		<bundle>
+			<item name="ar22_set05_shop" regular=""/>
+			<item name="ar22_shop" expiration="1d"/>
+		</bundle>
+	</shop_item>

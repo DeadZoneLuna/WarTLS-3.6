@@ -1,0 +1,14 @@
+<mission name="test_ai_spawn_e" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="95f71f04-48ef-4283-8447-1cedc414024c" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="easy" test_mission="1" mission_type="easymission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="mapImgAfgan"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/test_ai_spawn" mission_flow="passage" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="17" lose_pool="7" draw_pool="10" score_pool="17"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="10000"/>
+ </Objectives>
+ <Teleports/>
+</mission>

@@ -1,0 +1,18 @@
+<shop_item name="contract_09_hard" type="contract">
+	<mmo_stats>
+		<param name="item_category" value="contract"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value=""/>
+		<param name="description" value="@ui_contract_descr_9h"/>
+		<param name="icon" value="tbd_icon"/>
+	</UI_stats>
+	<contract diff="hard" amount="3" id="9" kind="game_end">
+		<Filters>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>
+		<Reward name="crown_money_item_01" amount="50"/>
+	</contract>
+</shop_item>

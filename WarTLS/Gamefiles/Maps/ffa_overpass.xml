@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_ffa_overpass" time_of_day="9.8" game_mode="ffa" game_mode_cfg="ffa_mode.cfg" uid="52fa65a0-d182-4abb-97c2-54857c6b3bbc" release_mission="0" channels="pvp_skilled, pvp_pro">
+ <Basemap name="pvp/ffa_overpass"/>
+ <UI>
+  <Description text="@pvp_ffa_mission_desc" icon="mapImgFfa_overpass"/>
+  <GameMode text="@pvp_ffa_game_mode_desc" icon="pvp_ffa_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="220" lose_pool="220" draw_pool="220" score_pool="220"/>
+ <TimeDependency min_time="30" full_time="432" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

@@ -1,0 +1,19 @@
+<mission name="FD07(7-7b)h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="7c21de2b-9ae9-4d2f-9d40-ec75fe6c01b3" release_mission="1" difficulty="hard" mission_type="hardmission">
+ <Basemap name="Favela/favela_base"/>
+ <UI>
+  <Description text="@hard_mission_desc" icon="mapImgFavela"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="favela/favela_path07" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+  <Sublevel id="1" name="favela/favela_path07" mission_flow="passage_backward" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="2000"/>
+  <Objective type="secondary" completion_score="500" id="2"/>
+  <Objective type="secondary" completion_score="500" id="9"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="FP07_end_f" finish_sublevel_id="1" finish_teleport="FP07_start_b"/>
+ </Teleports>
+</mission>

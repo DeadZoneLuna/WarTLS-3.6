@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_ptb_pyramid" time_of_day="12" game_mode="ptb" game_mode_cfg="ptb_mode.cfg" uid="b1594650-15ad-43c0-850f-863f5ab85ef5" release_mission="1" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro" rating_game_mission="1">
+ <Basemap name="pvp/ptb_pyramid"/>
+ <UI>
+  <Description text="@pvp_ptb_mission_desc" icon="mapImgptb_pyramid"/>
+  <GameMode text="@pvp_ptb_game_mode_desc" icon="pvp_ptb_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="400" lose_pool="320" draw_pool="340" score_pool="80"/>
+ <TimeDependency min_time="30" full_time="480" />
+  <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

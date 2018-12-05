@@ -1,0 +1,14 @@
+<mission name="BP09(mech)e" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="34764a8a-c269-41fa-aab8-2312d7de6233" release_mission="1" difficulty="easy" mission_type="easymission">
+ <Basemap name="Kosovo/kosovo_base"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="mapImgKosovo"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="kosovo/kosovo_junction01" mission_flow="boss" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="60" lose_pool="20" draw_pool="25" score_pool="60"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="1000"/>
+ </Objectives>
+ <Teleports/>
+</mission>

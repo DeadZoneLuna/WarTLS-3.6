@@ -1,0 +1,10 @@
+<mission name="test_anim_performance" time_of_day="12" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="fd04a838-5be1-4b00-8c14-14c0f5f3be31" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" channels="">
+ <Basemap name="test_levels/performance/ai_animation_performance"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgQATestmaps"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="pvp_tdm_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="35" lose_pool="15" draw_pool="25" score_pool="35"/>
+ <Objectives />
+ <Teleports />
+</mission>

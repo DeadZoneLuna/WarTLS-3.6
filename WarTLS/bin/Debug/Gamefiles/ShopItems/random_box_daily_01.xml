@@ -1,0 +1,26 @@
+<shop_item name="random_box_daily_01" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="shop_item_status" value="new"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@random_box_daily_01_shop_name"/>
+		<param name="description" value="@ui_random_box_daily_01_description"/>
+		<param name="icon" value="randombox_01"/>
+	</UI_stats>
+	<random_box>
+		<group>
+			<item name="shared_shoes_crown_02" expiration="1d" weight="1"/>
+			<item name="shared_hands_crown_02" expiration="1d" weight="1"/>
+			<item name="shared_vest_crown_02" expiration="1d" weight="1"/>
+			<item name="shared_shoes_crown_02" expiration="2d" weight="1"/>
+			<item name="shared_hands_crown_02" expiration="2d" weight="1"/>
+			<item name="shared_vest_crown_02" expiration="2d" weight="1"/>
+			<item name="shared_shoes_crown_02" expiration="3d" weight="1"/>
+			<item name="shared_hands_crown_02" expiration="3d" weight="1"/>
+			<item name="shared_vest_crown_02" expiration="3d" weight="1"/>
+		</group>
+	</random_box>
+</shop_item>

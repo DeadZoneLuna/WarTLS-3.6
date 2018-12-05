@@ -1,0 +1,11 @@
+<mission name="@pvp_mission_display_name_dmn_armageddon" time_of_day="12" game_mode="dmn" game_mode_cfg="dmn_armageddon.cfg" uid="e1129d41-42fd-4451-b729-4b7ff5f4e3e7" release_mission="1" clan_war_mission="1" only_clan_war_mission="0" channels="">
+ <Basemap name="pvp/dmn_armageddon"/>
+ <UI>
+  <Description text="@pvp_dmn_mission_desc" icon="mapImgdmn_armageddon"/>
+  <GameMode text="@pvp_dmn_game_mode_desc" icon="pvp_tdm_game_mode_icon"/>
+ </UI>
+<Sublevels mission_flow="default" win_pool="280" lose_pool="224" draw_pool="230" score_pool="56"/>
+ <Objectives />
+ <Teleports />
+</mission>
+

@@ -1,0 +1,12 @@
+<Mission name="@pvp_mission_display_name_ptb_overpass" release_mission="1" time_of_day="9.8" game_mode="ptb" game_mode_cfg="ptb_mode.cfg" uid="a2e98ff0-b602-44e5-b517-02518a7c19eb">
+  <Basemap name="pvp/ptb_overpass"/>
+  <UI>
+   <Description text="@info_ptb_afghan" icon="mapImgFfa_overpass" />
+   <GameMode text="@ptb_game_mode_desc" icon="tdm_icon" />
+  </UI>
+ <Sublevels mission_flow="default" win_pool="333" lose_pool="266" draw_pool="270" score_pool="67"/>
+ <TimeDependency min_time="30" full_time="480" />
+  <KillDependency min_kills="10" full_kills="20" />
+ <Objectives/>
+ <Teleports/>  
+</Mission>

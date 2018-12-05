@@ -1,0 +1,8 @@
+<mission name="@name_tutorial_engineer" time_of_day="10.00"  game_mode="pve" game_mode_cfg="tutorial_engineer.cfg" uid="678a4754-1d2d-1f72-cc87-19bdb40107a8" release_mission="1" tutorial_mission="3" difficulty="easy" mission_type="tutorialmission">
+ <Basemap name="Tutorial/engineer"/>
+ <UI>
+  <Description text="@tutorial_adv_mission_desc" icon="LoadingTutorENGINEER_BG"/>
+  <GameMode text="@tutorial_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="187" lose_pool="0" draw_pool="0" score_pool="187"/>
+</mission>

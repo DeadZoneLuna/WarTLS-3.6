@@ -1,0 +1,14 @@
+<mission name="test_chernobyl_features_h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="098caa12-01c3-483e-95ad-0a8cd1f8b084" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="hardmission">
+ <Basemap name="test_levels/test_base"/>
+ <UI>
+  <Description text="@normal_mission_desc" icon="mapImgAfgan"/>
+  <GameMode text="@PvE_game_mode_desc"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/test_chernobyl_features" mission_flow="arena_flow" score="0" difficulty="hard" difficulty_cfg="chernobyl_hard.cfg" win_pool="400" lose_pool="300" draw_pool="320" score_pool="200"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="1000"/>
+ </Objectives>
+ <Teleports />
+</mission>

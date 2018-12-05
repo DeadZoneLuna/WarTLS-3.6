@@ -1,0 +1,10 @@
+<mission name="test_system_specs" time_of_day="12" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="a4f79152-a5ad-470f-a7ab-68fd15983dcd" release_mission="0">
+ <Basemap name="test_levels/test_system_specs"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="pvp_tdm_mission_icon"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="pvp_tdm_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="35" lose_pool="15" draw_pool="25" score_pool="35"/>
+ <Objectives />
+ <Teleports />
+</mission>

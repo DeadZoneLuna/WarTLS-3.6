@@ -1,0 +1,19 @@
+<mission name="FD06(6-6b)n" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="d0c186c9-df20-4663-8ca5-cf58f1c8e316" release_mission="1" difficulty="normal" mission_type="normalmission">
+ <Basemap name="Favela/favela_base"/>
+ <UI>
+  <Description text="@normal_mission_desc" icon="mapImgFavela"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="favela/favela_path06" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="110" lose_pool="37" draw_pool="40" score_pool="110"/>
+  <Sublevel id="1" name="favela/favela_path06" mission_flow="passage_backward" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="110" lose_pool="37" draw_pool="40" score_pool="110"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="2000"/>
+  <Objective type="secondary" completion_score="400" id="7"/>
+  <Objective type="secondary" completion_score="400" id="10"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="FP06_end_f" finish_sublevel_id="1" finish_teleport="FP06_start_b"/>
+ </Teleports>
+</mission>

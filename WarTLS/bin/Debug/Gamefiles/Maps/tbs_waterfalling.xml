@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_tbs_waterfalling" time_of_day="10.00" game_mode="tbs" game_mode_cfg="tbs_mode.cfg" uid="da20dcc4-9672-4077-b877-1b04c6772b75" release_mission="1" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro" rating_game_mission="1">
+ <Basemap name="pvp/tbs_waterfalling"/>
+ <UI>
+  <Description text="@pvp_tbs_mission_desc" icon="mapImghnt_waterfalling"/>
+  <GameMode text="@pvp_tbs_game_mode_desc" icon="pvp_tbs_game_mode_icon"/>
+ </UI>
+<Sublevels mission_flow="default" win_pool="400" lose_pool="320" draw_pool="340" score_pool="80"/>
+<TimeDependency min_time="30" full_time="480" />
+<KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

@@ -1,0 +1,14 @@
+<mission name="ME10(arena)h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="616e6276-1417-4854-b50e-3a711a54ae06" release_mission="1" difficulty="hard" mission_type="hardmission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@hard_mission_desc" icon="mapImgMEj02"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="afghan/afghan_junction02" mission_flow="arena" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="6000"/>
+ </Objectives>
+ <Teleports/>
+</mission>

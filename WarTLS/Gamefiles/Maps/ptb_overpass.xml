@@ -1,0 +1,12 @@
+<Mission name="@pvp_mission_display_name_ptb_overpass" release_mission="0" time_of_day="9.8" game_mode="ptb" game_mode_cfg="ptb_mode.cfg" uid="a2e98ff0-b602-44e5-b517-02518a7c19eb" channels="pvp_skilled, pvp_pro" clan_war_mission="0" only_clan_war_mission="0" rating_game_mission="0">
+  <Basemap name="pvp/ptb_overpass"/>
+  <UI>
+   <Description text="@pvp_ptb_mission_desc" icon="mapImgFfa_overpass" />
+   <GameMode text="@pvp_ptb_game_mode_desc" icon="tdm_icon" />
+  </UI>
+<Sublevels mission_flow="default" win_pool="400" lose_pool="320" draw_pool="340" score_pool="80"/>
+ <TimeDependency min_time="30" full_time="480" />
+  <KillDependency min_kills="10" full_kills="20" />
+ <Objectives/>
+ <Teleports/>  
+</Mission>

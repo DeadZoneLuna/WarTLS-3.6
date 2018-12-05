@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+	<shop_item name="booster_test_premium_02" type="booster">
+		<mmo_stats>
+			<param name="item_category" value="booster"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+			<param name="vip" value="0"/>
+			<param name="tag_filter" value="premium"/>
+			<param name="testcontent" value="1"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@ui_booster_test_premium_02"/>
+			<param name="description" value=""/>
+			<param name="icon" value="test_item_icon"/>
+			<param name="unavailability_reason" value="@unavailability_reason_premium"/>
+		</UI_stats>
+		<GameParams>
+			<param name="BoostStackOption" value="1"/>
+			<param name="gmBoost" value="0.1"/>
+			<param name="xpBoost" value="0.1"/>
+		</GameParams>
+	</shop_item>

@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_tdm_streetwars" time_of_day="12" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="d2cc9728-2a3f-4387-a0ea-ea1e0f967495" release_mission="1" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro" rating_game_mission="1">
+ <Basemap name="pvp/tdm_streetwars"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgtdm_streetwars"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="pvp_tdm_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="320" lose_pool="256" draw_pool="260" score_pool="64"/>
+ <TimeDependency min_time="30" full_time="470" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

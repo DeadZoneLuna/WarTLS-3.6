@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_stm_invasion" time_of_day="10.00" game_mode="stm" game_mode_cfg="stm_new_mode.cfg" uid="18a2580c-5988-4890-96a9-b7b40c5487c4" release_mission="1" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro">
+ <Basemap name="pvp/stm_invasion"/>
+ <UI>
+  <Description text="@pvp_stm_mission_desc" icon="mapImgStmInvasion"/>
+  <GameMode text="@pvp_stm_game_mode_desc" icon="tdm_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="750" lose_pool="600" draw_pool="620" score_pool="150"/>
+ <TimeDependency min_time="60" full_time="912" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

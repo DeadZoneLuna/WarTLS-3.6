@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_dst_towers" release_mission="1" time_of_day="09.00" game_mode="dst" game_mode_cfg="dst_mode.cfg" uid="d1f15bf2-1db4-42f4-b335-097a57b83ed4">
+ <Basemap name="pvp/dst_afghan"/>
+ <UI>
+  <Description text="@pvp_obj_tdm_mission_desc" icon="mapImgdstAfghan"/>
+  <GameMode text="@dst_game_mode_desc" icon="pvp_dst_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="250" lose_pool="200" draw_pool="210" score_pool="50"/>
+ <TimeDependency min_time="30" full_time="384" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

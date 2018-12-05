@@ -1,0 +1,35 @@
+<shop_item name="random_box_rm_01" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="shop_item_status" value="new"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@random_box_rm_01_shop_name"/>
+		<param name="description" value="@ui_random_box_rm_01_description"/>
+		<param name="icon" value="randombox_01"/>
+	</UI_stats>
+	<random_box>
+		<group>
+            <item name="smg31_camo06_shop" regular="" weight="1"/>
+            <item name="pt14_camo06_shop" regular="" weight="1"/>
+            <item name="ar16_camo06skin_shop" regular="" weight="1"/>
+            <item name="sr08_camo06_shop" regular="" weight="3"/>
+            <item name="shg13_camo06_shop" regular="" weight="3"/>
+            <item name="ar08_camo06_shop" regular="" weight="3"/>
+            <item name="mg06_camo06_shop" regular="" weight="13"/>
+            <item name="shg12_camo06skin_shop" regular="" weight="15"/>
+            <item name="smg30_camo06skin_shop" regular="" weight="15"/>
+            <item name="sr30_camo06skin_shop" regular="" weight="15"/>
+            <item name="ar06_camo03skin_shop" regular="" weight="15"/>
+            <item name="smg07_camo06_shop" regular="" weight="15"/>
+            <item name="pt06_camo04_shop" regular="" weight="20"/>
+            <item name="pt23_camo06skin_shop" regular="" weight="20"/>
+            <item name="kn06_camo06_shop" regular="" weight="20"/>
+            <item name="kn02_camo06_shop" regular="" weight="20"/>
+            <item name="shg01_camo06_shop" regular="" weight="20"/>
+		</group>
+
+	</random_box>
+</shop_item>

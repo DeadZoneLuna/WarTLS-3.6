@@ -1,0 +1,14 @@
+<mission name="FD12(apache)n" time_of_day="12"  game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="8112a0ea-a783-42e3-8925-24a6b2cc3fb3" release_mission="1" difficulty="easy">
+ <Basemap name="Favela/favela_base"/>
+ <UI>
+  <Description text="@normal_mission_desc" icon="mapImgFavela"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="favela/favela_junction04" mission_flow="boss" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="110" lose_pool="37" draw_pool="40" score_pool="110"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="1000"/>
+ </Objectives>
+ <Teleports />
+</mission>

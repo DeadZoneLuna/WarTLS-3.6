@@ -1,0 +1,42 @@
+<shop_item name="random_box_101" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="max_buy_amount" value="5"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@random_box_101_shop_name"/>
+		<param name="description" value="@ui_random_box_101_description"/>
+		<param name="icon" value="randombox_101"/>
+	</UI_stats>
+	<random_box>
+		<group>
+			<item name="smg40_shop" weight="10"/>
+			<item name="bundle_item_smg40_smugglers_card" weight="20"/>
+			<item name="smg40_gold01_shop" weight="1" top_prize_token="box_token_cry_money_101" win_limit="1000"/>
+			<item name="smg40_shop" expiration="1h" weight="200"/>
+			<item name="smg40_shop" expiration="3h" weight="100"/>
+			<item name="smg40_shop" expiration="1d" weight="79"/>
+			<item name="engineer_fbs_exo_01" expiration="1d" weight="220"/>
+			<item name="smg30_shop" expiration="1d" weight="220"/>
+			<item name="smg30_shop" expiration="3d" weight="150"/>
+		</group>
+		<group>
+			<item name="pt27_shop" expiration="3d" weight="20"/>
+			<item name="pt27_shop" expiration="7d" weight="10"/>
+			<item name="kn10" expiration="3d" weight="16"/>
+			<item name="kn10" expiration="7d" weight="8"/>
+			<item name="smokegrenade03_c" amount="7" weight="15"/>
+			<item name="smokegrenade03_c" amount="3" weight="35"/>
+			<item name="claymoreexplosive04_c" amount="2" weight="15"/>
+			<item name="claymoreexplosive04_c" amount="1" weight="20"/>
+		</group>
+		<group>
+			<item name="exp_item_01"  amount="1500" weight="2"/>
+			<item name="exp_item_01"  amount="1000" weight="3"/>
+			<item name="exp_item_01"  amount="500" weight="15"/>
+			<item name="exp_item_01"  amount="200" weight="80"/>
+		</group>
+	</random_box>
+</shop_item>

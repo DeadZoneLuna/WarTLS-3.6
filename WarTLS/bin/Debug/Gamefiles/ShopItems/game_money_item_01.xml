@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+	<shop_item name="game_money_item_01" type="game_money">
+		<mmo_stats>
+			<param name="item_category" value="Misc"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+			<param name="stackable" value="1"/>
+			<param name="max_buy_amount" value="32000"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@tooltip_GameBank_title"/>
+			<param name="description" value="@tooltip_GameBank_description"/>
+			<param name="icon" value="game_money_icon"/>
+		</UI_stats>
+	</shop_item>

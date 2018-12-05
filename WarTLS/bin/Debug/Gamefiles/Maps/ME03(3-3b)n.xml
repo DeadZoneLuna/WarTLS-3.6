@@ -1,0 +1,19 @@
+<mission name="ME03(3-3b)n" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="595fff0f-2854-41c9-bdd6-0fe56d350ff1" release_mission="1" difficulty="normal" mission_type="normalmission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@normal_mission_desc" icon="mapImgAfgan"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="afghan/afghan_path03" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="110" lose_pool="37" draw_pool="40" score_pool="110"/>
+  <Sublevel id="1" name="afghan/afghan_path03" mission_flow="passage_backward" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="110" lose_pool="37" draw_pool="40" score_pool="110"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="2000"/>
+  <Objective type="secondary" completion_score="50" id="1"/>
+  <Objective type="secondary" completion_score="50" id="4"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="afghan_path03_end" finish_sublevel_id="1" finish_teleport="afghan_path03_b_start"/>
+ </Teleports>
+</mission>

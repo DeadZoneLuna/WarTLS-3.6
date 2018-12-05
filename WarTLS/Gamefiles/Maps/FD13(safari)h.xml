@@ -1,0 +1,14 @@
+<mission name="FD13(safari)h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="83d45168-b540-498e-afb2-d9e493320071" release_mission="1" difficulty="hard" mission_type="hardmission">
+ <Basemap name="Favela/favela_base"/>
+ <UI>
+  <Description text="@hard_mission_desc" icon="mapImgFavelaj05"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="favela/favela_junction05" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="300" lose_pool="100" draw_pool="110" score_pool="0"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="60" timelimit="1000"/>
+ </Objectives>
+ <Teleports/>
+</mission>

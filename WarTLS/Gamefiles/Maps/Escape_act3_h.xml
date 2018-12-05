@@ -1,0 +1,25 @@
+<mission name="Escape_act3_h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="e47d9fd6-5f3f-4b48-87cf-8d080fe2dacb" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="hardmission">
+ <Basemap name="Survival/escape/escape_base"/>
+ <UI>
+  <Description text="@na_mission_anubis_desc_01" icon="mapImgNA_Anubis_h"/>
+  <GameMode text="@PvE_game_mode_desc"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="survival/escape/escape_act3" mission_flow="arena_flow" score="0" difficulty="hard" difficulty_cfg="escape_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="660000" silver="360000" bronze="150000"/>
+    <Time gold="1100" silver="1200" bronze="1500"/>
+   </CrownRewardsThresholds>
+   <RewardPools>
+    <Pool name="0" value="100"/>
+    <Pool name="1" value="125"/>
+    <Pool name="2" value="175"/>
+    <Pool name="3" value="250"/>
+   </RewardPools>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="1800"/>
+ </Objectives>
+ <Teleports />
+</mission>

@@ -1,0 +1,19 @@
+<mission name="CT03(3-3b)n" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="14e04e1b-8308-40f4-9ee8-50e7529e2699" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="normal" mission_type="normalmission">
+ <Basemap name="china/china_base"/>
+ <UI>
+  <Description text="@pve_me_end_path" icon="mapImgChina"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="china/china_path03" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="95" lose_pool="37" draw_pool="40" score_pool="95"/>
+  <Sublevel id="1" name="china/china_path03" mission_flow="passage_backward" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="95" lose_pool="37" draw_pool="40" score_pool="95"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="2000"/>
+  <Objective type="secondary" completion_score="400" id="7"/>
+  <Objective type="secondary" completion_score="400" id="12"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="CP03_end_f" finish_sublevel_id="1" finish_teleport="CP03_start_b"/>
+ </Teleports>
+</mission>

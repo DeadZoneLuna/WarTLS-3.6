@@ -1,0 +1,29 @@
+<mission name="MEp12_h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="20ed7c82-3e66-4751-8d97-ba8bf4ebb80c" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="hardmission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@pve_me_end_path" icon="mapImgMEp_h"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="afghan/afghan_path12" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="300" lose_pool="200" draw_pool="210" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="25500" silver="15400" bronze="10500"/>
+    <Time gold="375" silver="420" bronze="630"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+  <Sublevel id="1" name="afghan/afghan_path12" mission_flow="passage_backward" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="300" lose_pool="200" draw_pool="210" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="20700" silver="12600" bronze="8300"/>
+    <Time gold="325" silver="365" bronze="560"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="2000"/>
+  <Objective type="secondary" id="0"/>
+  <Objective type="secondary" id="18"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="afghan_Path12_End" finish_sublevel_id="1" finish_teleport="afghan_path12_b_start"/>
+ </Teleports>
+</mission>

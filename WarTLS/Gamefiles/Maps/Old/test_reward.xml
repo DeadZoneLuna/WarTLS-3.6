@@ -1,0 +1,16 @@
+<mission name="test_reward" time_of_day="12"  game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="72ed8ae1-f0a0-4952-a080-092bf91ae996" release_mission="0" difficulty="easy">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="easy_icon"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="testaward" mission_flow="passage" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="1000" lose_pool="250" draw_pool="500" score_pool="1000"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="1000"/>
+  <Objective type="secondary" completion_score="100" id="1"/>
+  <Objective type="secondary" completion_score="100" id="3"/>
+ </Objectives>
+ <Teleports />
+</mission>

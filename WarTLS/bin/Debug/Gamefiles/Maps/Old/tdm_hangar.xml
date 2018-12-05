@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_tdm_hangar" time_of_day="12.00" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="d42df33c-bbaa-49d9-bed2-8db61ef5b233" release_mission="1">
+ <Basemap name="pvp/tdm_hangar"/>
+ <UI>
+  <Description text="@info_tdm_church" icon="mapImgHangar"/>
+  <GameMode text="@tdm_game_mode_desc" icon="tdm_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="250" lose_pool="200" draw_pool="210" score_pool="50"/>
+ <TimeDependency min_time="30" full_time="470" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

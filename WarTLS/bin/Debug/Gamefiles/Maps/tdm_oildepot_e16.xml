@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_tdm_oildepot_e16" time_of_day="9.55" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="0575ee9b-db2a-4a8d-a376-c2ec4b021587" release_mission="0" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro">
+ <Basemap name="pvp/tdm_oildepot_e16"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgtdm_oildepot_e16"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="pvp_tdm_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="320" lose_pool="256" draw_pool="260" score_pool="64"/>
+ <TimeDependency min_time="30" full_time="470" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives/>
+ <Teleports/>
+</mission>

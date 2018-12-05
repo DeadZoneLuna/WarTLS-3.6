@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+	<shop_item name="booster_bonus_04" type="booster">
+		<mmo_stats>
+			<param name="item_category" value="booster"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+			<param name="vip" value="0"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@ui_booster_bonus_name_4"/>
+			<param name="description" value=""/>
+			<param name="icon" value="ItemBooster_DailyBonus"/>
+		</UI_stats>
+		<GameParams>
+			<param name="BoostStackOption" value="1"/>
+			<param name="vpBoost" value="0.1"/>
+			<param name="gmBoost" value="0.05"/>
+			<param name="xpBoost" value="0.15"/>
+		</GameParams>
+	</shop_item>

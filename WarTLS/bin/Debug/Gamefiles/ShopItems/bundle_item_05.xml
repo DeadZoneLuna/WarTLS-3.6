@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+	<shop_item name="bundle_item_05" type="bundle">
+		<mmo_stats>
+			<param name="item_category" value="Bundle"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@bundle_item_05"/>
+			<param name="description" value="@bundle_item_05_description"/>
+			<param name="icon" value="bundle_item_05"/>
+		</UI_stats>
+		<bundle>
+			<item name="pt03_bundle_shop" expiration="1d"/>
+			<item name="kn06" expiration="1d"/>
+			<item name="shared_vest_02" expiration="1d"/>
+			<item name="shared_hands_05" expiration="1d"/>
+			<item name="shared_shoes_05" expiration="1d"/>
+			<item name="mission_access_token_04" amount="2"/>
+			<item name="coin_01" amount="5"/>
+		</bundle>
+	</shop_item>

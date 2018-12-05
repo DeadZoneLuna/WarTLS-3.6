@@ -1,0 +1,28 @@
+<shop_item name="box_ps4_02" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@box_ps4_02_shop_name"/>
+		<param name="description" value="@ui_box_ps4_02_description"/>
+		<param name="icon" value="bundle_ps4_HD"/>
+	</UI_stats>
+	<random_box>
+		<group>
+			<item name="ar12_ice01_shop" expiration="1h" weight="149"/>
+			<item name="smg33_ice01_shop" expiration="1h" weight="149"/>
+			<item name="sr34_ice01_shop" expiration="1h" weight="149"/>
+			<item name="shg37_ice01_shop" expiration="1h" weight="149"/>
+			<item name="ar12_ice01_shop" expiration="1d" weight="100"/>
+			<item name="smg33_ice01_shop" expiration="1d" weight="100"/>
+			<item name="sr34_ice01_shop" expiration="1d" weight="100"/>
+			<item name="shg37_ice01_shop" expiration="1d" weight="100"/>
+			<item name="ar12_ice01_shop" weight="1"/>
+			<item name="smg33_ice01_shop" weight="1"/>
+			<item name="sr34_ice01_shop" weight="1"/>
+			<item name="shg37_ice01_shop" weight="1"/>
+		</group>
+	</random_box>
+</shop_item>

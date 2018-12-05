@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+	<shop_item name="bundle_item_giveaway_10" type="bundle">
+		<mmo_stats>
+			<param name="item_category" value="Bundle"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@bundle_item_giveaway_10"/>
+			<param name="description" value="@bundle_item_giveaway_10_description"/>
+			<param name="icon" value="bundle_item_15"/>
+		</UI_stats>
+		<bundle>
+			<item name="coin_01" amount="25"/>
+			<item name="ar05_shop"/>
+			<item name="shg02_shop"/>
+			<item name="smg24_shop"/>
+			<item name="sr35_shop"/>
+			<item name="kn10"/>
+			<item name="shared_hands_05"/>
+			<item name="smokegrenade02" expiration="15d"/>
+			<item name="flashbang" expiration="15d"/>
+		</bundle>
+	</shop_item>

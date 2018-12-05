@@ -1,0 +1,19 @@
+<mission name="BP02(2-2b)e" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="311bf375-a6cf-4dd5-a32f-67199c0f58b3" release_mission="1" difficulty="easy" mission_type="easymission">
+ <Basemap name="kosovo/kosovo_base"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="mapImgKosovo"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="kosovo/kosovo_path02" mission_flow="passage" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="60" lose_pool="20" draw_pool="25" score_pool="60"/>
+  <Sublevel id="1" name="kosovo/kosovo_path02" mission_flow="passage_backward" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="60" lose_pool="20" draw_pool="25" score_pool="60"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="2000"/>
+  <Objective type="secondary" completion_score="30" id="0"/>
+  <Objective type="secondary" completion_score="30" id="2"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="kosovo_path02_end" finish_sublevel_id="1" finish_teleport="kosovo_path02_b_start"/>
+ </Teleports>
+</mission>

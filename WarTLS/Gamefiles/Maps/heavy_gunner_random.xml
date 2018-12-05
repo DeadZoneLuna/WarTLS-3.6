@@ -1,0 +1,19 @@
+<mission name="heavy_gunner_random" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="acca1514-d4a4-470b-bf59-707037dde3fc" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="normal" mission_type="normalmission">
+ <Basemap name="test_levels/test_base"/>
+ <UI>
+  <Description text="@normal_mission_desc" icon="mapImgAfgan"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/ai/heavy_gunner_random" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="1050" lose_pool="450" draw_pool="625" score_pool="1050">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="30000" silver="20000" bronze="10000"/>
+    <Time gold="100" silver="200" bronze="300"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="0"/>
+ </Objectives>
+ <Teleports />
+</mission>

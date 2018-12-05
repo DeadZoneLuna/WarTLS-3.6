@@ -1,0 +1,10 @@
+<Mission name="@pvp_mission_display_name_ctf_longway" release_mission="1" clan_war_mission="1" time_of_day="9:10" game_mode="ctf" game_mode_cfg="ctf_mode.cfg" uid="7684fdcf-f6aa-431e-9616-608eccd3a847">
+ <UI>
+  <Description text="@info_ctf_longway" icon="mapImgLongway"/>
+  <GameMode text="@ctf_game_mode_desc" icon="tdm_icon"/>
+ </UI>
+ <Basemap name="pvp/ctf_longway"/>
+ <Sublevels mission_flow="default" win_pool="333" lose_pool="266" draw_pool="270" score_pool="67"/>
+ <TimeDependency min_time="30" full_time="440" />
+ <KillDependency min_kills="10" full_kills="20" />
+</Mission>

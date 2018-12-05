@@ -1,0 +1,19 @@
+<mission name="Icebreaker_act1_h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="7b47d58a-979e-47ba-b6d9-ef0ee7d0cfab" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="hardmission">
+ <Basemap name="survival/icebreaker/icebreaker_base"/>
+ <UI>
+  <Description text="@snow_survival_mission_desc_01" icon="mapImgIcebreaker_e"/>
+  <GameMode text="@PvE_game_mode_desc"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="survival/icebreaker/icebreaker_act1" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="ib_hard" win_pool="419" lose_pool="399" draw_pool="400" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="127200" silver="38700" bronze="21500"/>
+    <Time gold="485" silver="625" bronze="895"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="3000"/>
+ </Objectives>
+ <Teleports />
+</mission>

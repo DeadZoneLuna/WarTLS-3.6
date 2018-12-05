@@ -1,0 +1,31 @@
+<shop_item name="random_box_skin_06" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="MERS"/>
+		<param name="max_buy_amount" value="5"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@random_box_skin_06_shop_name"/>
+		<param name="description" value="@ui_random_box_skin_06_description"/>
+		<param name="icon" value="random_box_skin_06"/>
+	</UI_stats>
+	<random_box>
+		<group>
+			<item name="ar04_anubis_shop" weight="10"/>
+			<item name="exp_item_01"  amount="350" weight="80"/>
+			<item name="exp_item_01"  amount="250" weight="120"/>
+			<item name="exp_item_01"  amount="125" weight="250"/>
+			<item name="exp_item_01"  amount="50" weight="540"/>
+		</group>
+		<group>
+			<item name="smokegrenade04_c" amount="7" weight="10"/>
+			<item name="smokegrenade04_c" amount="3" weight="20"/>
+			<item name="claymoreexplosive04_c" amount="2" weight="20"/>
+			<item name="claymoreexplosive04_c" amount="1" weight="10"/>
+			<item name="flashbang" expiration="1d" weight="20"/>
+			<item name="flashbang" expiration="3d" weight="10"/>
+			<item name="booster_02"  expiration="1h" weight="10"/>
+		</group>
+	</random_box>
+</shop_item>

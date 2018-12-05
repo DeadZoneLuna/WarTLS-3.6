@@ -1,0 +1,8 @@
+<mission name="@name_tutorial_medic" time_of_day="10.00"  game_mode="pve" game_mode_cfg="tutorial_medic.cfg" uid="688d8633-1c8a-4d72-bc87-19bdb40117aa" release_mission="1" tutorial_mission="2" difficulty="easy" mission_type="tutorialmission">
+ <Basemap name="Tutorial/medic"/>
+ <UI>
+  <Description text="@tutorial_adv_mission_desc" icon="LoadingTutorMEDIC_BG"/>
+  <GameMode text="@tutorial_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="187" lose_pool="0" draw_pool="0" score_pool="187"/>
+</mission>

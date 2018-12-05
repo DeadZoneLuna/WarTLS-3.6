@@ -1,0 +1,19 @@
+<mission name="afghan_tv" time_of_day="12"  game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="8c8f9df5-882e-4c4a-b380-f93c1aed5f09" release_mission="0" difficulty="normal">
+ <Basemap name="Afghan_tv/afghan_base"/>
+ <UI>
+  <Description text="@normal_mission_desc" icon="mapImgAfgan"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="afghan_tv/afghan_path01" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="35" lose_pool="15" draw_pool="25" score_pool="35"/>
+  <Sublevel id="1" name="afghan_tv/afghan_junction01" mission_flow="boss" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="35" lose_pool="15" draw_pool="25" score_pool="35"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="5000" timelimit="2000"/>
+  <Objective type="secondary" completion_score="100" id="2"/>
+  <Objective type="secondary" completion_score="100" id="4"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="afghan_Path01_End" finish_sublevel_id="1" finish_teleport="afghan_junction01_start"/>
+ </Teleports>
+</mission>

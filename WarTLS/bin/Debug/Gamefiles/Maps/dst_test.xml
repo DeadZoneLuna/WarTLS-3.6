@@ -1,0 +1,12 @@
+<mission name="dst_test" release_mission="0" time_of_day="12" game_mode="dst" game_mode_cfg="dst_mode.cfg" uid="6b663ac0-5527-4fe0-8f68-c81647f2bda1" test_mission="1" channels="pvp_skilled, pvp_pro">
+ <Basemap name="test_levels/dst"/>
+ <UI>
+  <Description text="@pvp_dst_mission_desc" icon="mapImgQATestmaps"/>
+  <GameMode text="@pvp_dst_game_mode_desc" icon="pvp_dst_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="35" lose_pool="15" draw_pool="25" score_pool="35"/>
+ <TimeDependency min_time="180" full_time="390" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

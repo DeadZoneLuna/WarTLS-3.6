@@ -1,0 +1,16 @@
+<shop_item name="achievement_unlock_item_zodiac_aquarius" type="meta_game">
+	<mmo_stats>
+		<param name="item_category" value="Emblem"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="max_buy_amount" value="1"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@zodiac_aquarius"/>
+		<param name="description" value="@zodiac_aquarius_01_desc"/>
+		<param name="icon" value="challenge_mark_zodiac_11"/>
+	</UI_stats>
+	<metagame_stats>
+		<on_activate unlock_achievement="2113"/>
+	</metagame_stats>
+</shop_item>

@@ -1,0 +1,29 @@
+<mission name="NAp05_e" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="3a1fffe9-6fdc-41b7-ac00-6cae64865a55" release_mission="1" clan_war_mission="0" only_clan_war_mission="0" difficulty="easy" mission_type="trainingmission">
+ <Basemap name="Africa/africa_base"/>
+ <UI>
+  <Description text="@pve_me_end_path" icon="mapImgAfrica"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="africa/africa_path05" mission_flow="passage" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="40" lose_pool="30" draw_pool="32" score_pool="20">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="62000" silver="43600" bronze="27700"/>
+    <Time gold="440" silver="475" bronze="600"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+  <Sublevel id="1" name="africa/africa_path05" mission_flow="passage_backward" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="40" lose_pool="30" draw_pool="32" score_pool="20">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="50000" silver="33700" bronze="20400"/>
+    <Time gold="330" silver="410" bronze="480"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="2000"/>
+  <Objective type="secondary" id="1"/>
+  <Objective type="secondary" id="7"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="NA05_end_f" finish_sublevel_id="1" finish_teleport="NA05_start_b"/>
+ </Teleports>
+</mission>

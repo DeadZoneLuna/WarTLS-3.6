@@ -1,0 +1,14 @@
+<shop_item name="coin_01" type="coin">
+	<mmo_stats>
+		<param name="item_category" value="ResurrectionCoins"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="max_buy_amount" value="32000"/>
+		<param name="stackable" value="1"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@coin_item_shop_name"/>
+		<param name="description" value="@ui_coin_item"/>
+		<param name="icon" value="coin_icon"/>
+	</UI_stats>
+</shop_item>

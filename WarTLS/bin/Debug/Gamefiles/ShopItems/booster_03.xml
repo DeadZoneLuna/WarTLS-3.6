@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+	<shop_item name="booster_03" type="booster">
+		<mmo_stats>
+			<param name="item_category" value="booster"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@ui_booster_name_3"/>
+			<param name="description" value="@ui_booster_xp"/>
+			<param name="icon" value="ItemBoosterXP"/>
+		</UI_stats>
+		<GameParams>
+			<param name="BoostStackOption" value="1"/>
+			<param name="xpBoost" value="0.15"/>
+		</GameParams>
+	</shop_item>

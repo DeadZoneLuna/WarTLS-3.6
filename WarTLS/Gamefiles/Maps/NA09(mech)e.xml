@@ -1,0 +1,14 @@
+<mission name="NA09(mech)e" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="1da4e965-676e-44a5-be82-53c4ca5f70a3" release_mission="1" clan_war_mission="0" only_clan_war_mission="0" difficulty="easy" mission_type="easymission">
+ <Basemap name="africa/africa_base"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="mapImgNAj01_easy"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="africa/africa_junction01" mission_flow="boss" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="45" lose_pool="20" draw_pool="25" score_pool="45"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="1000"/>
+ </Objectives>
+ <Teleports/>
+</mission>

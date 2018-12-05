@@ -1,0 +1,19 @@
+<mission name="CT01(1-1b)h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="2226d8a1-430c-4e8d-878d-f9f6bcc3251f" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="hard" mission_type="hardmission">
+ <Basemap name="china/china_base"/>
+ <UI>
+  <Description text="@pve_me_end_path" icon="mapImgChina"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="china/china_path01" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="95" lose_pool="37" draw_pool="40" score_pool="95"/>
+  <Sublevel id="1" name="china/china_path01" mission_flow="passage_backward" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="95" lose_pool="37" draw_pool="40" score_pool="95"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="2000"/>
+  <Objective type="secondary" completion_score="400" id="6"/>
+  <Objective type="secondary" completion_score="400" id="7"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="china_path01_end_f" finish_sublevel_id="1" finish_teleport="china_path01_start_b"/>
+ </Teleports>
+</mission>

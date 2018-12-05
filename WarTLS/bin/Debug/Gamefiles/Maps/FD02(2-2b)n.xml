@@ -1,0 +1,19 @@
+<mission name="FD02(2-2b)n" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="cfa66162-aba1-4793-b5cf-6a95ac7f0b51" release_mission="1" difficulty="normal" mission_type="normalmission">
+ <Basemap name="Favela/favela_base"/>
+ <UI>
+  <Description text="@normal_mission_desc" icon="mapImgFavela"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="favela/favela_path02" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="110" lose_pool="37" draw_pool="40" score_pool="110"/>
+  <Sublevel id="1" name="favela/favela_path02" mission_flow="passage_backward" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="110" lose_pool="37" draw_pool="40" score_pool="110"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="2000"/>
+  <Objective type="secondary" completion_score="50" id="0"/>
+  <Objective type="secondary" completion_score="50" id="1"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="favela_path02_end" finish_sublevel_id="1" finish_teleport="favela_path02_b_start"/>
+ </Teleports>
+</mission>

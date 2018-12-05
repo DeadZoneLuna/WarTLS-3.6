@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+	<shop_item name="bundle_item_test_01" type="bundle">
+		<mmo_stats>
+			<param name="item_category" value="Bundle"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+			<param name="testcontent" value="1"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@bundle_item_test_01"/>
+			<param name="description" value="@bundle_item_test_01_description"/>
+			<param name="icon" value="test_item_icon"/>
+		</UI_stats>
+		<bundle>
+			<item name="ar03_test_shop"/>
+			<item name="ar03_test_unrepairable_shop" expiration="7d"/>
+			<item name="explosivegrenade02_test" amount="10"/>
+			<item name="medic_fbs_01_test" regular=""/>
+		</bundle>
+	</shop_item>

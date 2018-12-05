@@ -1,0 +1,14 @@
+<mission name="test_art_assets_zoo" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="1a2ca771-7a2c-48ba-bf45-a13489287571" release_mission="0" difficulty="easy" test_mission="1" mission_type="easymission">
+ <Basemap name="art_assets_zoo"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="mapImgAfgan"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/art_assets_zoo" mission_flow="test" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="1" lose_pool="0" draw_pool="0" score_pool="1"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="1000"/>
+ </Objectives>
+ <Teleports/>
+</mission>

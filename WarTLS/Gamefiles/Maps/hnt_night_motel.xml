@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_hnt_night_motel" time_of_day="0" game_mode="hnt" game_mode_cfg="hnt_mode.cfg" uid="959ddc2d-9bb4-4eab-9be8-8e04e76d94aa" release_mission="1" clan_war_mission="0" only_clan_war_mission="0" channels="pvp_newbie,pvp_skilled, pvp_pro">
+ <Basemap name="pvp/hnt_night_motel"/>
+ <UI>
+	<Description text="@pvp_hnt_mission_desc" icon="mapImghnt_night_motel" /> 
+	<GameMode text="@pvp_hnt_game_mode_desc" icon="pvp_ffa_game_mode_icon" /> 
+ </UI>
+ <Sublevels mission_flow="default" win_pool="450" lose_pool="450" draw_pool="450" score_pool="350"/>
+ <TimeDependency min_time="30" full_time="840" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

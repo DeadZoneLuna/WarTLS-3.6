@@ -1,0 +1,14 @@
+<mission name="FD11(convoy)e" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="e60e6e8f-9c76-479c-b020-bb5a8d91b015" release_mission="0" difficulty="easy">
+ <Basemap name="Favela/favela_base"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="mapImgFavelaj05"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="favela/favela_junction03" mission_flow="convoy" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="45" lose_pool="20" draw_pool="25" score_pool="45"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="1000"/>
+ </Objectives>
+ <Teleports />
+</mission>

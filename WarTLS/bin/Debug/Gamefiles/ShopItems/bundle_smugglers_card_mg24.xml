@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+	<shop_item name="bundle_smugglers_card_mg24" type="bundle">
+		<mmo_stats>
+			<param name="item_category" value="Bundle"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@key_smugg_card"/>
+			<param name="description" value="@ui_key_box_mg24"/>
+			<param name="icon" value="randombox_card_126"/>
+		</UI_stats>
+		<bundle>
+			<item name="key_box_mg24" expiration="12h"/>
+			<item name="mg24_shop" expiration="1h"/>
+		</bundle>
+	</shop_item>

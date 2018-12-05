@@ -1,0 +1,12 @@
+<Mission name="@pvp_mission_display_name_stm_highhill" release_mission="1" time_of_day="8:55" game_mode="stm" game_mode_cfg="stm_new_mode.cfg" uid="2a8cbd01-52ae-4783-bdd6-d2f858b4fd74" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_skilled, pvp_pro">
+ <Basemap name="pvp/stm_highhill"/>
+ <UI>
+  <Description text="@pvp_stm_mission_desc" icon="mapImgStm"/>
+  <GameMode text="@pvp_stm_game_mode_desc" icon="tdm_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="750" lose_pool="600" draw_pool="620" score_pool="150"/>
+ <TimeDependency min_time="60" full_time="912" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</Mission>

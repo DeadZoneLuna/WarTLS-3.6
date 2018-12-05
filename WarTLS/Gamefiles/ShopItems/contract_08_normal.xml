@@ -1,0 +1,20 @@
+<shop_item name="contract_08_normal" type="contract">
+	<mmo_stats>
+		<param name="item_category" value="contract"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value=""/>
+		<param name="description" value="@ui_contract_descr_8n"/>
+		<param name="icon" value="tbd_icon"/>
+	</UI_stats>
+	<contract diff="normal" amount="750" id="8" kind="heal">
+		<Filters>
+			<Filter kind="target_self" param="0"/>
+			<Filter kind="player" param="1"/>
+			<Filter kind="enemy" param="0"/>
+		</Filters>
+		<Reward name="game_money_item_01" amount="1000"/>
+	</contract>
+</shop_item>

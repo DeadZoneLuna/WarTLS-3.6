@@ -1,0 +1,14 @@
+<mission name="ME13(safari)h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="b66331eb-430f-4052-9560-11ca96db01d9" release_mission="1" difficulty="hard" mission_type="hardmission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@hard_mission_desc" icon="mapImgMEj05"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="afghan/afghan_junction05" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="1000"/>
+ </Objectives>
+ <Teleports/>
+</mission>

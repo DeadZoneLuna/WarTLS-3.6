@@ -1,0 +1,10 @@
+<mission name="drawcallcount" time_of_day="12" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="c9186cfd-e97c-4267-bcc4-4ca61f434efe" release_mission="0">
+ <Basemap name="test_levels/drawcall_count"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgTdmFarm" />
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="pvp_tdm_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="150" lose_pool="50" draw_pool="75" score_pool="150"/>
+ <Objectives />
+ <Teleports />
+</mission>

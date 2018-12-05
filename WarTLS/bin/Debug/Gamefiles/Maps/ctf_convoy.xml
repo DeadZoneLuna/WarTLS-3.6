@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_ctf_convoy" time_of_day="12" game_mode="ctf" game_mode_cfg="ctf_mode.cfg" uid="f32bc4ca-6420-4034-82d6-c8041e3bd3fa" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" channels="pvp_skilled, pvp_pro" rating_game_mission="0">
+ <Basemap name="pvp/ctf_convoy"/>
+ <UI>
+  <Description text="@pvp_ctf_mission_desc" icon="mapImgCtf_Convoy"/>
+  <GameMode text="@pvp_ctf_game_mode_desc" icon="pvp_ctf_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="375" lose_pool="300" draw_pool="320" score_pool="75"/>
+ <TimeDependency min_time="30" full_time="440" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

@@ -1,0 +1,19 @@
+<mission name="FD04(4-4b)h" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="6556bbe1-4366-436c-9a6f-68cef692c795" release_mission="1" difficulty="hard" mission_type="hardmission">
+ <Basemap name="Favela/favela_base"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="mapImgFavela"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="favela/favela_path04" mission_flow="passage" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+  <Sublevel id="1" name="favela/favela_path04" mission_flow="passage_backward" score="0" difficulty="hard" difficulty_cfg="diff_hard.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="2000"/>
+  <Objective type="secondary" completion_score="500" id="10"/>
+  <Objective type="secondary" completion_score="500" id="13"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="FP04_end_f" finish_sublevel_id="1" finish_teleport="FP04_start_b"/>
+ </Teleports>
+</mission>

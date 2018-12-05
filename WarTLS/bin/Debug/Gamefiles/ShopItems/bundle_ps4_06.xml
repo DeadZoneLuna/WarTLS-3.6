@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+	<shop_item name="bundle_ps4_06" type="bundle">
+		<mmo_stats>
+			<param name="item_category" value="Bundle"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@bundle_ps4_06"/>
+			<param name="description" value="@bundle_ps4_06_description"/>
+			<param name="icon" value="bundle_ps4_HD"/>
+		</UI_stats>
+		<bundle>
+			<item name="ar04_camo05_shop" regular=""/>
+			<item name="shg03_camo05_shop" regular=""/>
+			<item name="smg06_camo05_shop" regular=""/>
+			<item name="sr02_camo05_shop" regular=""/>
+			<item name="booster_11" expiration="7d"/>
+		</bundle>
+	</shop_item>

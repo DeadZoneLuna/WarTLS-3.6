@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+	<shop_item name="meta_game_item_03" type="meta_game">
+		<mmo_stats>
+			<param name="item_category" value="Misc"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+			<param name="max_buy_amount" value="1"/>
+			<param name="stackable" value="1"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@meta_game_item_03"/>
+			<param name="description" value="@meta_game_item_03_description"/>
+			<param name="icon" value="stats_reset_item_02"/>
+			<param name="buy_confirmation" value="@meta_game_item_03_buy_confirmation"/>
+		</UI_stats>
+		<metagame_stats>
+			<on_activate action="pvp_wl_reset" telemetry_action="pvp_wl_reset"/>
+		</metagame_stats>
+	</shop_item>

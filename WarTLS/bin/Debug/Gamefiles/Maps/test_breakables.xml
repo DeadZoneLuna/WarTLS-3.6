@@ -1,0 +1,10 @@
+<mission name="test_breakables" time_of_day="9.00" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="60fae1f0-debc-11e4-ac5f-d43d7e9be5b1" test_mission="1" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro">
+ <Basemap name="test_levels/test_breakables"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgQATestmaps"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="pvp_tdm_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="35" lose_pool="15" draw_pool="25" score_pool="35"/>
+ <Objectives/>
+ <Teleports/>
+</mission>

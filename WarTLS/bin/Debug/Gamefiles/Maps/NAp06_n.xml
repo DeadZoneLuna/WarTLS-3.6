@@ -1,0 +1,29 @@
+<mission name="NAp06_n" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="90b64f6b-97d8-4d37-bdfa-a89d02058f04" release_mission="1" clan_war_mission="0" only_clan_war_mission="0" difficulty="normal" mission_type="normalmission">
+ <Basemap name="Africa/africa_base"/>
+ <UI>
+  <Description text="@pve_me_end_path" icon="mapImgAfrica"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="africa/africa_path06" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="60" lose_pool="40" draw_pool="45" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="62000" silver="43600" bronze="27700"/>
+    <Time gold="440" silver="475" bronze="600"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+  <Sublevel id="1" name="africa/africa_path06" mission_flow="passage_backward" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="60" lose_pool="40" draw_pool="45" score_pool="0">
+   <CrownRewardsThresholds>
+    <TotalPerformance gold="50000" silver="33700" bronze="20400"/>
+    <Time gold="330" silver="410" bronze="480"/>
+   </CrownRewardsThresholds>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="2000"/>
+  <Objective type="secondary" id="2"/>
+  <Objective type="secondary" id="17"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="NA06_end_f" finish_sublevel_id="1" finish_teleport="NA06_start_b"/>
+ </Teleports>
+</mission>

@@ -1,0 +1,19 @@
+<mission name="test_cinematics_teleport" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="5589a962-2c06-46a9-9a93-e916165765c8" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="normal" mission_type="normalmission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@pve_me_end_path" icon="mapImgMEp_n"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/test_cinematics" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="35" lose_pool="15" draw_pool="20" score_pool="35"/>
+  <Sublevel id="1" name="test_levels/test_cinematics" mission_flow="passage_backward" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="35" lose_pool="15" draw_pool="20" score_pool="35"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="20000"/>
+  <Objective type="secondary" completion_score="400" id="5"/>
+  <Objective type="secondary" completion_score="400" id="6"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="teleport_end" finish_sublevel_id="1" finish_teleport="helicopter_start_teleport_backward"/>
+ </Teleports>
+</mission>

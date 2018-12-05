@@ -1,0 +1,35 @@
+<mission name="survival_snow_act2_only" time_of_day="11.5" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="d19907ed-ec32-47f7-b07e-61459d06a840" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="survival" mission_type="campaignsection2">
+	 
+	<Basemap name="survival/snow_fortress_base"/>
+	
+	<UI>
+		<Description text="Castle: Survival" icon="mapImgSurvivalSnow2"/>
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+	</UI>
+	
+	<Sublevels>
+		<Sublevel id="0" name="survival/snow_fortress_act2" mission_flow="arena_flow" score="0" difficulty="survival" difficulty_cfg="rw_survival.cfg" win_pool="150" lose_pool="50" draw_pool="55" score_pool="150"/>
+	</Sublevels>
+	 <RewardPools>
+		<Pool name="0" value="50"/>
+		<Pool name="1" value="75"/>
+		<Pool name="2" value="100"/>
+		<Pool name="3" value="125"/>
+		<Pool name="4" value="125"/>
+		<Pool name="5" value="125"/>
+		<Pool name="6" value="150"/>
+		<Pool name="7" value="175"/>
+		<Pool name="8" value="175"/>
+		<Pool name="9" value="175"/>
+		<Pool name="10" value="200"/>
+		<Pool name="11" value="200"/>
+	</RewardPools>
+	 
+	<Objectives>
+		<Objective type="primary" completion_score="0" timelimit="10200"/>
+	</Objectives>
+	
+	<Teleports>
+	</Teleports>
+  
+</mission>

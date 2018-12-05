@@ -1,0 +1,37 @@
+<mission name="shield_survival" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="94fb0026-d809-409c-854b-3eea9eb0fd4f" release_mission="0" clan_war_mission="0" only_clan_war_mission="0" difficulty="easy" mission_type="survivalmission">
+ <Basemap name="test_levels/test_base"/>
+ <UI>
+  <Description text="@easy_mission_desc" icon="mapImgAfgan"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/ai/shield_survival" mission_flow="passage" score="0" difficulty="easy" difficulty_cfg="diff_easy.cfg" win_pool="2100" lose_pool="900" draw_pool="1250" score_pool="0">
+  	<RewardPools>
+		<Pool name="0" value="5"/>
+		<Pool name="1" value="5"/>
+		<Pool name="2" value="10"/>
+		<Pool name="3" value="20"/>
+		<Pool name="4" value="35"/>
+		<Pool name="5" value="40"/>
+		<Pool name="6" value="45"/>
+		<Pool name="7" value="60"/>
+		<Pool name="8" value="80"/>
+		<Pool name="9" value="100"/>
+		<Pool name="10" value="120"/>
+		<Pool name="11" value="160"/>
+		<Pool name="12" value="200"/>
+		<Pool name="13" value="260"/>
+		<Pool name="14" value="270"/>
+		<Pool name="15" value="280"/>
+		<Pool name="16" value="340"/>
+		<Pool name="17" value="410"/>
+		<Pool name="18" value="490"/>
+		<Pool name="19" value="570"/>
+	</RewardPools>
+  </Sublevel>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="0"/>
+ </Objectives>
+ <Teleports />
+</mission>

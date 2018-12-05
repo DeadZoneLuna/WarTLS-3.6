@@ -1,0 +1,14 @@
+<shop_item name="box_token_cry_money_73" type="top_prize_token">
+	<mmo_stats>
+		<param name="item_category" value="TopPrizeToken"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="max_buy_amount" value="32000"/>
+		<param name="stackable" value="1"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@box_token_cry_money_73_name"/>
+		<param name="description" value="@box_token_cry_money_73_description"/>
+		<param name="icon" value="tbd_icon"/>
+	</UI_stats>
+</shop_item>

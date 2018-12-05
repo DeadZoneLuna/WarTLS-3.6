@@ -1,0 +1,14 @@
+<mission name="CT13(safari)n" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="2bb84c08-fd5d-4b4f-9a90-304654aa3c8f" release_mission="1" clan_war_mission="0" only_clan_war_mission="0" difficulty="normal" mission_type="normalmission">
+ <Basemap name="china/china_base"/>
+ <UI>
+  <Description text="@normal_mission_desc" icon="mapImgCTj05_normal"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="china/china_junction05" mission_flow="safari" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="95" lose_pool="37" draw_pool="40" score_pool="95"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="1000"/>
+ </Objectives>
+ <Teleports/>
+</mission>

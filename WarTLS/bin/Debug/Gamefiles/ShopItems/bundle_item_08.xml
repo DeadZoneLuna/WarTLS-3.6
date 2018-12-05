@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+	<shop_item name="bundle_item_08" type="bundle">
+		<mmo_stats>
+			<param name="item_category" value="Bundle"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@bundle_item_08"/>
+			<param name="description" value="@bundle_item_08_description"/>
+			<param name="icon" value="bundle_item_08"/>
+		</UI_stats>
+		<bundle>
+			<item name="sniper_fbs_01" regular=""/>
+			<item name="medic_fbs_01" regular=""/>
+			<item name="engineer_fbs_01" regular=""/>
+			<item name="soldier_fbs_01" regular=""/>
+		</bundle>
+	</shop_item>

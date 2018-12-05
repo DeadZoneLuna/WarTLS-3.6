@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_tdm_ghost_town" time_of_day="9" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="b4ac3d2f-1e97-4132-800e-7e1dbcd3512f" release_mission="1" autostart_only="0" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled,pvp_pro">
+ <Basemap name="pvp/tdm_ghost_town"/>
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgtdm_ghost_town"/>
+  <GameMode text="@pvp_tdm_game_mode_desc"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="320" lose_pool="256" draw_pool="260" score_pool="64"/>
+ <TimeDependency min_time="30" full_time="470" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

@@ -1,0 +1,19 @@
+<mission name="NAp01_n" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="92935151-14e0-4802-8003-ff6028958479" release_mission="1" clan_war_mission="0" only_clan_war_mission="0" difficulty="normal" mission_type="normalmission">
+ <Basemap name="Africa/africa_base"/>
+ <UI>
+  <Description text="@pve_me_end_path" icon="mapImgAfrica"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="africa/africa_path01" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="50" lose_pool="40" draw_pool="45" score_pool="25"/>
+  <Sublevel id="1" name="africa/africa_path01" mission_flow="passage_backward" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="50" lose_pool="40" draw_pool="45" score_pool="25"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" timelimit="2000"/>
+  <Objective type="secondary" id="0"/>
+  <Objective type="secondary" id="9"/>
+ </Objectives>
+ <Teleports>
+  <Teleport start_sublevel_id="0" start_teleport="africa_path01_end" finish_sublevel_id="1" finish_teleport="africa_path01b_start"/>
+ </Teleports>
+</mission>

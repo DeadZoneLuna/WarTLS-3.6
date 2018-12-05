@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+	<shop_item name="clan_creation_item_01" type="clan">
+		<mmo_stats>
+			<param name="item_category" value="ClanCreation"/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+			<param name="max_buy_amount" value="1"/>
+			<param name="stackable" value="1"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="clan_creation_item_01"/>
+			<param name="description" value="clan_creation_item_01"/>
+			<param name="icon" value="replace_me"/>
+		</UI_stats>
+	</shop_item>

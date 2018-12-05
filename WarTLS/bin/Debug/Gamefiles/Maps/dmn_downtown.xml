@@ -1,0 +1,10 @@
+<mission name="DMN_downtown" time_of_day="8.25" game_mode="dmn" game_mode_cfg="dmn_mode.cfg" uid="0726fb42-1d41-7a43-97d1-4e0571124cd8" release_mission="0" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_skilled, pvp_pro">
+ <Basemap name="pvp/dmn_downtown"/>
+ <UI>
+  <Description text="@pvp_dmn_mission_desc" icon="mapImgDowntown"/>
+  <GameMode text="@pvp_dmn_game_mode_desc" icon="tdm_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="280" lose_pool="224" draw_pool="230" score_pool="56"/>
+ <Objectives />
+ <Teleports />
+</mission>

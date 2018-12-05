@@ -1,0 +1,34 @@
+<shop_item name="random_box_afro_02" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+		<param name="shop_item_status" value="new"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@random_box_afro_02_shop_name"/>
+		<param name="description" value="@ui_random_box_afro_02_description"/>
+		<param name="icon" value="randombox_01"/>
+	</UI_stats>
+	<random_box>
+		<group>
+			<item name="random_box_bundle_afro_05" amount="1" weight="45"/>
+			<item name="booster_01"  expiration="1h" weight="130"/>
+			<item name="booster_03"  expiration="1h" weight="130"/>
+			<item name="booster_04"  expiration="1h" weight="130"/>
+		</group>
+		<group>
+			<item name="smokegrenade04_c" amount="7" weight="50"/>
+			<item name="smokegrenade04_c" amount="3" weight="100"/>
+			<item name="claymoreexplosive04_c" amount="2" weight="85"/>
+			<item name="claymoreexplosive04_c" amount="1" weight="100"/>
+			<item name="flashbang" expiration="1d" weight="150"/>
+			<item name="flashbang" expiration="3d" weight="70"/>
+			<item name="exp_item_01"  amount="850" weight="50"/>
+			<item name="exp_item_01"  amount="625" weight="100"/>
+			<item name="exp_item_01"  amount="500" weight="150"/>
+			<item name="exp_item_01"  amount="375" weight="750"/>
+			<item name="exp_item_01"  amount="250" weight="4000"/>
+		</group>
+	</random_box>
+</shop_item>

@@ -1,0 +1,10 @@
+<mission name="@pvp_mission_display_name_lms_mojave" time_of_day="12" game_mode="hnt" game_mode_cfg="hnt_mode.cfg" uid="3889f29a-fe06-425b-9ff8-f94ffbd5307c" release_mission="1" autostart_only="0" clan_war_mission="0" only_clan_war_mission="0" channels="pvp_newbie,pvp_skilled, pvp_pro">
+ <Basemap name="pvp/lms_mojave"/>
+ <UI>
+	<Description text="@pvp_lms_mission_desc" icon="mapImglms_mojave" /> 
+	<GameMode text="@pvp_lms_game_mode_desc" icon="pvp_ffa_game_mode_icon" /> 
+ </UI>
+ <Sublevels mission_flow="default" win_pool="300" lose_pool="100" draw_pool="100" score_pool="450"/>
+ <Objectives />
+ <Teleports />
+</mission>

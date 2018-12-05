@@ -1,0 +1,35 @@
+<shop_item name="random_box_fbs_01" type="random_box">
+	<mmo_stats>
+		<param name="item_category" value="RandomBox"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="MERS"/>
+		<param name="max_buy_amount" value="5"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@random_box_fbs_01_shop_name"/>
+		<param name="description" value="@ui_random_box_fbs_01_description"/>
+		<param name="icon" value="random_box_fbs_01"/>
+	</UI_stats>
+	<random_box>
+		<group>
+			<item name="soldier_fbs_nano_01" regular="" weight="120"/>
+			<item name="medic_fbs_nano_01" regular="" weight="120"/>
+			<item name="engineer_fbs_nano_01" regular="" weight="120"/>
+			<item name="sniper_fbs_nano_01" regular="" weight="120"/>
+			<item name="smokegrenade04_c" amount="7" weight="1000"/>
+			<item name="smokegrenade04_c" amount="3" weight="3000"/>
+			<item name="claymoreexplosive04_c" amount="2" weight="1600"/>
+			<item name="claymoreexplosive04_c" amount="1" weight="1600"/>
+			<item name="flashbang" expiration="1d" weight="2500"/>
+			<item name="flashbang" expiration="3d" weight="800"/>
+			<item name="coin_01" amount="1" weight="879"/>
+			<item name="booster_02"  expiration="1h" weight="121"/>
+		</group>
+		<group>
+			<item name="exp_item_01"  amount="1500" weight="200"/>
+			<item name="exp_item_01"  amount="1000" weight="300"/>
+			<item name="exp_item_01"  amount="500" weight="1500"/>				
+			<item name="exp_item_01"  amount="200" weight="8000"/>		
+		</group>
+	</random_box>
+</shop_item>

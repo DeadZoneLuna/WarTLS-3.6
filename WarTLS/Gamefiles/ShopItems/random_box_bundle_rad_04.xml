@@ -1,0 +1,16 @@
+<shop_item name="random_box_bundle_rad_04" type="bundle">
+	<mmo_stats>
+		<param name="item_category" value="Bundle"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="MERS"/>
+	</mmo_stats>
+	<UI_stats>
+		<param name="name" value="@shg42_rad01skin_shop_name"/>
+		<param name="description" value="@ui_weapons_shg42_rad01skin"/>
+		<param name="icon" value="shg42_rad01"/>
+	</UI_stats>
+		<bundle>
+			<item name="shg42_rad01skin_shop" regular=""/>
+			<item name="shg42_shop" expiration="1d"/>
+		</bundle>
+</shop_item>

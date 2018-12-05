@@ -1,0 +1,10 @@
+<mission name="test_dynamic_environment" time_of_day="12" game_mode="ptb" game_mode_cfg="ptb_mode.cfg" uid="1d9a7ff4-d1e1-45b1-afb8-31948c40e2a4" release_mission="0">
+ <Basemap name="test_levels/dynamic_environment"/>
+ <UI>
+  <Description text="@pvp_ptb_mission_desc" icon="pvp_ptb_mission_icon"/>
+  <GameMode text="@pvp_ptb_game_mode_desc" icon="pvp_ptb_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="200" lose_pool="68" draw_pool="100" score_pool="200"/>
+ <Objectives />
+ <Teleports />
+</mission>

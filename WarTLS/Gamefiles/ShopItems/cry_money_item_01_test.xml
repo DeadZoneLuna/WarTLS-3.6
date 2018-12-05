@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+	<shop_item name="cry_money_item_01_test" type="cry_money">
+		<mmo_stats>
+			<param name="item_category" value=""/>
+			<param name="shopcontent" value="1"/>
+			<param name="classes" value="RESM"/>
+			<param name="stackable" value="1"/>
+			<param name="max_buy_amount" value="10000"/>
+			<param name="testcontent" value="1"/>
+		</mmo_stats>
+		<UI_stats>
+			<param name="name" value="@tooltip_CryBank_title_test"/>
+			<param name="description" value="@tooltip_CryBank_description_test"/>
+			<param name="icon" value="test_item_icon"/>
+		</UI_stats>
+	</shop_item>

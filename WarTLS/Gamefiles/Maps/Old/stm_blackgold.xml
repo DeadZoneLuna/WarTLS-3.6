@@ -1,0 +1,12 @@
+<mission name="@pvp_mission_display_name_stm_blackgold" release_mission="1" time_of_day="9" game_mode="stm" game_mode_cfg="stm_mode.cfg" uid="e95e24cb-f948-4775-bc63-5a4627c19347">
+ <Basemap name="pvp/stm_blackgold"/>
+ <UI>
+  <Description text="@pvp_stm_mission_desc" icon="mapImgStm_Blackgold"/>
+  <GameMode text="@stm_game_mode_desc" icon="pvp_tdm_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="450" lose_pool="405" draw_pool="410" score_pool="90"/>
+ <TimeDependency min_time="60" full_time="912" />
+ <KillDependency min_kills="10" full_kills="20" />
+ <Objectives />
+ <Teleports />
+</mission>

@@ -1,0 +1,15 @@
+<mission name="test_shoot_physics" time_of_day="12" game_mode="pve" game_mode_cfg="pve_mode.cfg" uid="b58f5094-ea1b-48ae-8593-fa5e19d07d45" release_mission="0" difficulty="normal" test_mission="1" mission_type="normalmission">
+ <Basemap name="Afghan/afghan_base"/>
+ <UI>
+  <Description text="@normal_mission_desc" icon="mapImgAfgan"/>
+  <GameMode text="@PvE_game_mode_desc" icon="pve_icon"/>
+ </UI>
+ <Sublevels>
+  <Sublevel id="0" name="test_levels/test_shoot_physics" mission_flow="passage" score="0" difficulty="normal" difficulty_cfg="diff_normal.cfg" win_pool="35" lose_pool="15" draw_pool="20" score_pool="35"/>
+ </Sublevels>
+ <Objectives>
+  <Objective type="primary" completion_score="0" timelimit="10000"/>
+  <Objective type="secondary" completion_score="400" id="2"/>
+ </Objectives>
+ <Teleports/>
+</mission>
